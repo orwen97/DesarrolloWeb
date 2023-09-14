@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+tipografias
+font-family: "Inter" regular y semibold
+font-family: "Be Vietnam" regular y semibold
+*/
+html {
+  background-color: #fcfcfc;
+}
+
+/* PAGINA INDEX*/
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container-iconos {
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 40px;
+}
+
+.logoLmy {
+  width: 147px;
+}
+
+.search {
+  width: 25px;
+}
+
+.carrito {
+  width: 34px;
+}
+
+.login {
+  width: 35px;
+}
+
+.iconos-1 {
+  align-self: flex-start;
+  order: 3;
+}
+.iconos-2 {
+  order: 2;
+  align-self: flex-end;
+  letter-spacing: 80px;
+}
+
+.iconos-2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+.iconos-3 {
+  order: 1;
+}
+.iconos-4 {
+  order: 4;
+}
+.iconos-5 {
+  order: 5;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  background-color: #eeeeee;
+  padding: 8px;
+}
+
+.navBar li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 80px;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+.carruselInicio {
+  display: flex;
+  width: 100%;
+}
+
+.cardsAccess {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.cardInv {
+  position: relative;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 80px;
+  letter-spacing: 0.8em;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cardJeans {
+  position: relative;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 80px;
+  letter-spacing: 0.8em;
+  margin-left: 25px;
+  margin-top: 30px;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.parrafo1 {
+  position: absolute;
+  top: -30px;
+  bottom: 60px;
+  left: 50px;
+}
+
+.parrafo2 {
+  position: absolute;
+  top: -30px;
+  bottom: 60px;
+  left: 190px;
+}
+
+.cardsAccess a {
+  position: absolute;
+  font-size: 20px;
+  letter-spacing: 0.4;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  top: 600px;
+  left: 150px;
+  padding-top: 0px;
+  padding-right: 0x;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+
+.fotoSlide {
+  width: inherit;
+  height: 429px;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.vestite {
+  position: absolute;
+  top: 1820px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 80px;
+  letter-spacing: 0.2em;
+}
+
+.fotoSlide img {
+  margin-right: 60px;
+}
+
+.accesoDirectoDos {
+  width: 1903px;
+}
+.accesoDirectoDos a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 0.2em;
+}
+
+.basicosSet img {
+  width: 750px;
+  left: 90px;
+}
+.basicosSet a {
+  top: 400px;
+  left: 150px;
+}
+
+.accSet img {
+  width: 900px;
+  top: 20px;
+  left: 900px;
+}
+.accSet a {
+  left: 1050px;
+  top: 120px;
+}
+
+.nosSet img {
+  width: 900px;
+  left: 900px;
+  top: 470px;
+}
+.nosSet a {
+  left: 1120px;
+  top: 480px;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.newsletter {
+  display: flex;
+  background-color: #262626;
+  height: 328px;
+  justify-content: space-between;
+}
+
+.newsletter img {
+  width: 568px;
+  height: 301px;
+  margin-top: 10px;
+}
+.formulario p {
+  color: white;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-right: 300px;
+}
+
+.final {
+  background-color: white;
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px gray;
+  display: flex;
+  width: 1903px;
+}
+
+.linksVarios1 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.linksVarios1 li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 37px;
+  letter-spacing: 0.1em;
+}
+.linksVarios2 ul li {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.linksVarios2 li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  margin-left: 200px;
+}
+
+.redes {
+  display: flex;
+  padding-top: 25px;
+  gap: 30px;
+  margin-left: 200px;
+}
+.redes a img {
+  width: 30px;
+}
+.redes p {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.copyright {
+  width: 1903px;
+  display: flex;
+  justify-content: center;
+}
+.copyright h3 {
+  font-size: 12px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
+.descuentoBar {
+  width: 1903;
+  align-items: flex-end;
+  background-color: black;
+  height: 43px;
+}
+
+.descuentoBar p {
+  display: flex;
+  color: #eeeeee;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.14em;
+  justify-content: center;
+}
+
+/*PAGINA TIENDA*/
+
+.productos {
+  display: flex;
+  justify-content: space-around;
+}
+.fotosProductos {
+  width: 450px;
+  box-shadow: 3px 3px 10px gray;
+}
+.colores {
+  height: 21px;
+}
+.productos p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/*PAGINA MUNDO LMY*/
+
+.imagenInicio img {
+  width: 1903px;
+}
+.textoLimay1 {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.2em;
+}
+.imgLimay1 img {
+  width: 609px;
+}
+
+.textolimay2 {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.2em;
+}
+.textoLimay3 {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.2em;
+}
+.imgLimay2 img {
+  width: 607px;
+}
+
+.textoMedio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 60px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #f9f9f9;
+  box-shadow: 3px 3px 10px gray;
+}
+.iconoDeReciclaje img {
+  width: 256px;
+}
+.logoReciclaje img {
+  width: 256px;
+}
+.accesosMundoLmy {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.12em;
+}
+
+.accesosMundoLmy h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.12em;
+  text-decoration-line: underline;
+  text-align: center;
+}
+.roperoCircular img {
+  width: 542px;
+}
+.sustentabilidad img {
+  width: 830px;
+}
+
+/*FAQ*/
+
+.faqInicio img {
+  width: 1903px;
+}
+
+.primerConsejo {
+  font-size: 24px;
+  line-height: 50px;
+  letter-spacing: 0.2em;
+  padding-left: 20px;
+}
+.primerConsejo img {
+  width: 380px;
+  box-shadow: 3px 3px 9px gray;
+}
+
+.tablaTalles h1 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.2em;
+  text-decoration-line: underline;
+  margin-top: 100px;
+  padding-left: 20px;
+}
+
+.tablaTalles img {
+  width: 707px;
+  padding-left: 20px;
+}
+.textoDudas p {
+  font-size: 24px;
+  line-height: 45px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.textoDudas img {
+  width: 463px;
+}
+
+/*CONTACTO*/
+.contactoImg {
+  background-image: url(../assets/img\ contacto/background.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formContacto {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.infoContacto {
+  display: flex;
+  justify-content: flex-end;
+}
+.infoContacto h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: right;
+  letter-spacing: 0.14em;
+  padding-right: 20px;
+}
