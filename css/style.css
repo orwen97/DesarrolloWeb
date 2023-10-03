@@ -28,7 +28,7 @@ body {
   background-color: #fcfcfc;
   box-shadow: 0.375rem 0.3125rem 0.1875rem rgba(0, 0, 0, 0.2);
 }
-.logoImg{
+.logoImg {
   display: flex;
   grid-column: 2 / 3;
   justify-content: center;
@@ -266,7 +266,6 @@ body {
   justify-self: center;
   align-self: center;
 }
-
 
 .accSet {
   display: grid;
@@ -550,7 +549,7 @@ body {
     grid-template-columns: auto auto;
   }
 
-  .newsletter img{
+  .newsletter img {
     width: 32rem;
     margin-top: 0rem;
     align-self: center;
@@ -574,15 +573,15 @@ body {
 }
 
 @media (max-width: 768px) {
-  .logoImg img{
+  .logoImg img {
     width: 8rem;
   }
 
   .logoType {
     margin-left: 2.7rem;
-    }
+  }
 
-  .logoType a{
+  .logoType a {
     font-size: 1.8rem;
     letter-spacing: 2rem;
   }
@@ -727,12 +726,11 @@ body {
   .logoType a {
     font-size: 1.2rem;
     letter-spacing: 1.3rem;
-
   }
 
   .carrito {
     width: 2.5rem;
-    margin-right: 1.1rem;    
+    margin-right: 1.1rem;
   }
 
   .carruselInicio {
@@ -1008,30 +1006,6 @@ body {
 }
 
 /*CONTACTO*/
-/* .contactoImg {
-  background-image: url(../assets/img\ contacto/background.PNG);
-  background-repeat: no-repeat;
-} */
-.formContacto {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.ubicacion {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 1.25rem;
-}
-
-.infoContacto {
-  display: flex;
-  justify-content: flex-end;
-}
-.infoContacto h2 {
-  font-weight: 25rem;
-  font-size: 1rem;
-  line-height: 2.5rem;
-  text-align: right;
-  letter-spacing: 0.14em;
-  padding-right: 1.25rem;
+.menu {
+  display: none;
 }
