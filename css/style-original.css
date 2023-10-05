@@ -1,0 +1,1011 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+tipografias
+font-family: "Inter" regular y semibold
+font-family: "Be Vietnam" regular y semibold
+*/
+html {
+  background-color: #fcfcfc;
+}
+
+/* PAGINA INDEX*/
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+.container-iconos {
+  height: 12.5rem;
+  margin: 0.625rem 0.625rem 0.625rem 0.9375rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #fcfcfc;
+  box-shadow: 0.375rem 0.3125rem 0.1875rem rgba(0, 0, 0, 0.2);
+}
+.logoImg {
+  display: flex;
+  grid-column: 2 / 3;
+  justify-content: center;
+}
+.searchIcon {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  width: 100%;
+}
+
+.search {
+  margin-top: 0.125rem;
+  margin-left: 1.875rem;
+  filter: drop-shadow(0rem 0.375rem 0.125rem rgba(0, 0, 0, 0.25));
+}
+
+.menuIcon {
+  display: none;
+}
+
+.logoType {
+  grid-area: 2 / 2;
+  justify-self: center;
+}
+
+.cartLogin {
+  grid-row: 2 / 3;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carrito {
+  margin-right: 2.1875rem;
+}
+
+.login {
+  margin-right: 1.875rem;
+}
+
+.logoType {
+  letter-spacing: 3.125rem;
+  margin-left: 3.125rem;
+  margin-bottom: 0.625rem;
+  align-self: center;
+}
+
+.logoType a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 3.125rem;
+  text-shadow: 0.375rem 0.3125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.navBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  background-color: #eeeeee;
+  padding: 0.5rem;
+}
+
+.navBar li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.2em;
+  font-family: "Inter", sans-serif;
+}
+
+.carruselInicio {
+  display: flex;
+  width: 100%;
+}
+
+.CarruselMobile {
+  display: none;
+}
+
+.inviernoImg {
+  width: 100%;
+}
+
+.jeansArmy {
+  width: 100%;
+}
+
+.cardsAccess {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3.75rem;
+}
+.cardsAccessMobile {
+  display: none;
+}
+
+.cardInv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardJeans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Boton ver mas */
+
+.button-name {
+  display: flex;
+  align-items: center;
+  appearance: none;
+  background-color: #000000;
+  border-radius: 5.625rem;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.2) 0 0.125rem 0.25rem,
+    rgba(45, 35, 66, 0.15) 0 0.4375rem 0.8125rem -0.1875rem,
+    #d6d6e7 0 -0.1875rem 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  opacity: 0.7;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  height: 2.5rem;
+  width: 8.125rem;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 1.125rem;
+}
+
+.button-name:focus {
+  box-shadow: #d6d6e7 0 0 0 0.0938rem inset,
+    rgba(45, 35, 66, 0.4) 0 0.125rem 0.25rem,
+    rgba(45, 35, 66, 0.3) 0 0.4375rem 0.8125rem -0.1875rem,
+    #d6d6e7 0 -0.1875rem 0 inset;
+}
+
+.button-name:hover {
+  box-shadow: rgba(45, 35, 66, 0.3) 0 0.25rem 0.5rem,
+    rgba(45, 35, 66, 0.2) 0 0.4375rem 0.8125rem -0.1875rem,
+    #d6d6e7 0 -0.1875rem 0 inset;
+  transform: translateY(-0.125rem);
+}
+
+.button-name:active {
+  box-shadow: #d6d6e7 0 0.1875rem 0.4375rem inset;
+  transform: translateY(0.125rem);
+}
+
+.fotoSlide {
+  width: inherit;
+  height: 26.8125rem;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: 5.625rem 1fr;
+  column-gap: 9.375rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.vestite {
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 5rem;
+  letter-spacing: 0.2em;
+  justify-self: center;
+}
+
+.fotoSlide img {
+  width: 100%;
+  margin-top: 2.5rem;
+  grid-row: 2 / 3;
+  box-shadow: 0.4rem 0.375rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.accesoDos {
+  margin-top: 8.125rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 0.1rem;
+  row-gap: 1rem;
+  position: relative;
+}
+
+.accesoDosMobile {
+  display: none;
+}
+
+.accesoDos a {
+  text-decoration: none;
+  color: white;
+  font-weight: 25rem;
+  font-size: 3.9rem;
+  line-height: 5rem;
+  letter-spacing: 0.2em;
+  position: absolute;
+}
+
+.basicosSet {
+  display: grid;
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+  justify-content: center;
+}
+
+.basicosImg {
+  width: 100%;
+  align-self: center;
+}
+
+.basicosSet a {
+  justify-self: center;
+  align-self: center;
+}
+
+.accSet {
+  display: grid;
+  justify-self: center;
+}
+
+.accesoriosImg {
+  width: 100%;
+  grid-column: 2 / 3;
+}
+
+.accSet a {
+  grid-column: 2 / 3;
+  justify-self: center;
+  align-self: center;
+}
+
+.nosSet {
+  display: grid;
+  justify-self: center;
+}
+
+.nosotresImg {
+  width: 100%;
+  grid-column: 2 / 3;
+}
+
+.nosSet a {
+  grid-column: 2 / 3;
+  justify-self: center;
+  align-self: center;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  padding-bottom: 6rem;
+  padding-top: 8rem;
+  box-shadow: 0.5rem 0.9rem 0.7rem rgba(0, 0, 0, 0.25);
+}
+
+.reciclajeCard img {
+  width: 100%;
+}
+
+.enviosImg {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.cardsMobile {
+  display: none;
+}
+
+.pagosCard img {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.newsletter {
+  display: grid;
+  background-color: #262626;
+  height: 20.5rem;
+  grid-template-columns: 35% 65%;
+}
+
+.newsletter img {
+  width: 35.5rem;
+  margin-top: 0.625rem;
+  justify-self: center;
+}
+.newsletter p {
+  font-family: "Inter";
+  font-weight: 600;
+  color: white;
+  font-size: 1.6875rem;
+  line-height: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.2em;
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  justify-self: center;
+  margin-top: 3.75rem;
+}
+
+.newsletter form {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  justify-self: center;
+  margin-top: 10.625rem;
+}
+
+.mailInput {
+  background-color: #212121;
+  width: 31.25rem;
+  height: 3.125rem;
+  padding: 0.625rem;
+  font-size: 1.125rem;
+  color: #d6d6e7;
+  font-family: Inter;
+  letter-spacing: 0.25rem;
+  border: 0.125rem solid white;
+  border-radius: 5.625rem;
+}
+
+.submit {
+  background-color: #efde45;
+  width: 8.125rem;
+  height: 2.5rem;
+  padding: 0.625rem;
+  text-align: center;
+  border: 0.125rem solid #efde45;
+  border-radius: 5.625rem;
+  box-shadow: 0.1875rem 0.1875rem 0.125rem rgb(155, 155, 155);
+  margin-left: 2.5rem;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.submit:focus {
+  color: rgb(251, 255, 0);
+  background-color: #000000;
+  outline-color: rgb(0, 0, 0);
+  box-shadow: 0.0625rem 0.0625rem 0.625rem rgb(255, 255, 255);
+  transition: 0.2s;
+  transition-property: box-shadow;
+}
+
+.final {
+  background-color: white;
+  margin-top: 1.875rem;
+  height: 14.375rem;
+  box-shadow: 0rem 0rem 0.625rem gray;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 1fr;
+  grid-template-rows: 1fr;
+  padding-left: 1.25rem;
+}
+
+.linksVarios1 {
+  list-style: none;
+  padding-top: 1.5625rem;
+}
+
+.linksVarios1 li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.875rem;
+  line-height: 2.3125rem;
+  letter-spacing: 0.1em;
+}
+
+.linksVarios2 ul {
+  list-style: none;
+}
+
+.linksVarios2 ul li {
+  padding-top: 1.5625rem;
+}
+
+.linksVarios2 li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.875rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.1em;
+}
+
+.finalMobile {
+  display: none;
+}
+
+.redes {
+  padding-top: 1.5625rem;
+}
+
+.redes a img {
+  width: 1.875rem;
+  margin-top: 1.25rem;
+  margin-left: 0.625rem;
+}
+
+.redes p {
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  margin-left: 0.625rem;
+}
+
+.copyright {
+  grid-column: 2 / 3;
+  justify-self: end;
+  align-self: center;
+}
+.copyright h3 {
+  font-size: 0.75rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1em;
+  font-weight: 25rem;
+  margin-bottom: 3.125rem;
+}
+
+.descuentoBar {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 2.6875rem;
+  bottom: 0;
+}
+
+.descuentoBar p {
+  color: #eeeeee;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.14em;
+  text-align: center;
+}
+/* MEDIA QUERYS */
+@media (max-width: 1024px) {
+  .navBar li a {
+    font-size: 1rem;
+    margin-right: 3rem;
+  }
+
+  .vestite {
+    font-size: 1.3rem;
+  }
+
+  .fotoSlide {
+    column-gap: 2rem;
+    margin-top: 2rem;
+  }
+  .fotoSlide img {
+    margin-top: 0.5rem;
+  }
+
+  .accesoDos {
+    margin-top: 6rem;
+  }
+
+  .accSet {
+    align-self: center;
+  }
+
+  .accesoDos a {
+    font-size: 2.8rem;
+  }
+
+  .nosSet a {
+    margin-bottom: 5rem;
+  }
+
+  .cards {
+    padding-bottom: 5rem;
+    margin-top: 0px;
+    margin-bottom: 6rem;
+  }
+
+  .mailInput {
+    font-size: 1rem;
+    width: 16rem;
+    height: 2.5rem;
+  }
+
+  .submit {
+    margin-left: 0.5rem;
+    width: 6.5rem;
+    font-size: 0.9rem;
+  }
+
+  .newsletter {
+    grid-template-columns: auto auto;
+  }
+
+  .newsletter img {
+    width: 32rem;
+    margin-top: 0rem;
+    align-self: center;
+  }
+
+  .newsletter p {
+    font-size: 1.1rem;
+  }
+
+  .cards h2 {
+    font-size: 1.2em;
+  }
+
+  .linksVarios1 li a {
+    font-size: 0.7rem;
+  }
+
+  .linksVarios2 li a {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logoImg img {
+    width: 8rem;
+  }
+
+  .logoType {
+    margin-left: 2.7rem;
+  }
+
+  .logoType a {
+    font-size: 1.8rem;
+    letter-spacing: 2rem;
+  }
+
+  .navBar {
+    display: none;
+  }
+
+  .searchIcon {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .cartLogin {
+    grid-column: 3 / 4;
+  }
+
+  .menuIcon {
+    display: grid;
+    grid-column: 1 / 2;
+  }
+
+  .button-name {
+    display: none;
+  }
+
+  .cardsAccess {
+    margin-top: 1rem;
+  }
+  .vestite {
+    font-size: 1rem;
+  }
+
+  .fotoSlide {
+    column-gap: 1rem;
+    margin-top: 1rem;
+  }
+  .fotoSlide img {
+    margin-top: 0.3rem;
+  }
+  .accesoDos {
+    margin-top: 0.2rem;
+  }
+  .accesoDos a {
+    font-size: 1.5rem;
+  }
+
+  .nosSet a {
+    margin-bottom: 1.9rem;
+  }
+
+  .cards {
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .newsletter {
+    height: 12.5rem;
+  }
+
+  .newsletter p {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+
+  .newsletter img {
+    width: 18rem;
+    align-self: center;
+    margin: 0rem;
+  }
+
+  .mailInput {
+    font-size: 0.7rem;
+    width: 14rem;
+    height: 2rem;
+    letter-spacing: 0.19em;
+  }
+
+  .submit {
+    margin-left: 0.5rem;
+    width: 6rem;
+    height: 1.8rem;
+    font-size: 0.9rem;
+    padding: 0rem;
+  }
+
+  .newsletter form {
+    margin-top: 6.5rem;
+  }
+
+  .final {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .copyright {
+    justify-self: center;
+  }
+  .linksVarios1 {
+    padding: 0rem;
+  }
+
+  .linksVarios1 ul li {
+    font-size: 0.7rem;
+  }
+
+  .linksVarios2 ul li {
+    padding-top: 0.66rem;
+    padding-bottom: 0.77rem;
+    font-size: 0.7rem;
+  }
+
+  .redes {
+    padding-top: 0.66rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .container-iconos {
+    height: 9.5rem;
+    box-shadow: 0rem 0.3125rem 0.1875rem rgba(0, 0, 0, 0.2);
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .logoLmy {
+    width: 5rem;
+  }
+
+  .menu {
+    width: 2.5rem;
+    margin-left: 1rem;
+  }
+
+  .logoType {
+    margin-left: 1.29rem;
+  }
+
+  .logoType a {
+    font-size: 1.2rem;
+    letter-spacing: 1.3rem;
+  }
+
+  .carrito {
+    width: 2.5rem;
+    margin-right: 1.1rem;
+  }
+
+  .carruselInicio {
+    display: none;
+  }
+
+  .CarruselMobile {
+    display: flex;
+    width: 100%;
+  }
+
+  .cardsAccess {
+    display: none;
+  }
+
+  .cardsAccessMobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .accesoDos {
+    display: none;
+  }
+
+  .accesoDosMobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .fotoSlide {
+    display: none;
+  }
+
+  .cards {
+    display: none;
+  }
+
+  .cardsMobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .newsletter {
+    height: 8rem;
+    margin-top: 1rem;
+  }
+
+  .newsletter p {
+    font-size: 0.4rem;
+    margin-top: 0.8rem;
+  }
+
+  .newsletter img {
+    width: 11.5rem;
+  }
+
+  .final {
+    margin-top: 1rem;
+  }
+
+  .mailInput {
+    font-size: 0.45rem;
+    width: 8rem;
+    height: 0.7rem;
+    letter-spacing: 0.15em;
+  }
+
+  .submit {
+    width: 3rem;
+    height: 0.9rem;
+    font-size: 0.45rem;
+    margin-top: 0.7rem;
+  }
+
+  .newsletter form {
+    margin-top: 3.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .linksVarios1 {
+    display: none;
+  }
+  .linksVarios2 {
+    display: none;
+  }
+
+  .final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .finalMobile {
+    display: flex;
+  }
+
+  .redes p {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .redes a img {
+    width: 1.4rem;
+    margin-top: 0.8rem;
+  }
+
+  .listaMobile {
+    list-style: none;
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+
+  .listaMobile li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .copyright h3 {
+    font-size: 0.5rem;
+    margin-top: 0.2rem;
+  }
+
+  .descuentoBar p {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .descuentoBar {
+    height: 2.1875rem;
+  }
+}
+
+/*PAGINA TIENDA*/
+
+.productos {
+  display: flex;
+  justify-content: space-around;
+}
+.fotosProductos {
+  width: 28.125rem;
+  box-shadow: 0.1875rem 0.1875rem 0.625rem gray;
+}
+.colores {
+  height: 1.3125rem;
+}
+.productos p {
+  font-weight: 25rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+/*PAGINA MUNDO LMY*/
+
+.imagenInicio img {
+  width: 118.9375rem;
+}
+.textoLimay1 {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.2em;
+}
+.imgLimay1 img {
+  width: 38.0625rem;
+}
+
+.textolimay2 {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.2em;
+}
+.textoLimay3 {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.2em;
+}
+.imgLimay2 img {
+  width: 37.9375rem;
+}
+
+.textoMedio {
+  font-weight: 31.25rem;
+  font-size: 1.25rem;
+  line-height: 3.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3.125rem;
+  padding-top: 3.125rem;
+  background-color: #f9f9f9;
+  box-shadow: 0.1875rem 0.1875rem 0.625rem gray;
+}
+.iconoDeReciclaje img {
+  width: 16rem;
+}
+.logoReciclaje img {
+  width: 16rem;
+}
+.accesosMundoLmy {
+  font-weight: 31.25rem;
+  font-size: 4rem;
+  line-height: 5rem;
+  letter-spacing: 0.12em;
+}
+
+.accesosMundoLmy h2 {
+  font-weight: 31.25rem;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  letter-spacing: 0.12em;
+  text-decoration-line: underline;
+  text-align: center;
+}
+.roperoCircular img {
+  width: 33.875rem;
+}
+.sustentabilidad img {
+  width: 51.875rem;
+}
+
+/*FAQ*/
+
+.faqInicio img {
+  width: 118.9375rem;
+}
+
+.primerConsejo {
+  font-size: 1.5rem;
+  line-height: 3.125rem;
+  letter-spacing: 0.2em;
+  padding-left: 1.25rem;
+}
+.primerConsejo img {
+  width: 23.75rem;
+  box-shadow: 0.1875rem 0.1875rem 0.5625rem gray;
+}
+
+.tablaTalles h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.2em;
+  text-decoration-line: underline;
+  margin-top: 6.25rem;
+  padding-left: 1.25rem;
+}
+
+.tablaTalles img {
+  width: 44.1875rem;
+  padding-left: 1.25rem;
+}
+.textoDudas p {
+  font-size: 1.5rem;
+  line-height: 2.8125rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding-left: 1.25rem;
+}
+
+.textoDudas img {
+  width: 28.9375rem;
+}
+
+/*CONTACTO*/
+.menu {
+  display: none;
+}
