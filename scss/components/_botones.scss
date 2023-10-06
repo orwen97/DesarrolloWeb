@@ -1,0 +1,111 @@
+/**BOTONES INDEX**/
+/**boton ver mas inv/jeans main**/
+.cardInv{
+    .button-name{
+        display: flex;
+        align-items: center;
+        appearance: none;
+        background-color: #000000;
+        border-radius: 5.625rem;
+        border-width: 0;
+        box-shadow: rgba(45, 35, 66, 0.2) 0 0.125rem 0.25rem,
+                    rgba(45, 35, 66, 0.15) 0 0.4375rem 0.8125rem -0.1875rem,
+                    #d6d6e7 0 -0.1875rem 0 inset;
+        box-sizing: border-box;
+        color: #ffffff;
+        opacity: 0.7;
+        cursor: pointer;
+        font-family: "JetBrains Mono", monospace;
+        height: 2.5rem;
+        width: 8.125rem;
+        justify-content: center;
+        line-height: 1;
+        list-style: none;
+        overflow: hidden;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        margin-top: 50%;
+        margin-left: 20%;
+        position: absolute;
+        text-align: left;
+        text-decoration: none;
+        transition: box-shadow 0.15s, transform 0.15s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        will-change: box-shadow, transform;
+        font-size: 1.125rem;
+        &:focus{
+            box-shadow: #d6d6e7 0 0 0 0.0938rem inset,
+            rgba(45, 35, 66, 0.4) 0 0.125rem 0.25rem,
+            rgba(45, 35, 66, 0.3) 0 0.4375rem 0.8125rem -0.1875rem,
+            #d6d6e7 0 -0.1875rem 0 inset;
+        }
+        &:hover{
+            box-shadow: rgba(45, 35, 66, 0.3) 0 0.25rem 0.5rem,
+            rgba(45, 35, 66, 0.2) 0 0.4375rem 0.8125rem -0.1875rem,
+            #d6d6e7 0 -0.1875rem 0 inset;
+            transform: translateY(-0.125rem);
+        }
+        &:active{
+            box-shadow: #d6d6e7 0 0.1875rem 0.4375rem inset;
+            transform: translateY(0.125rem);
+        }
+    }
+}
+
+.cardJeans{
+    .button-name{
+        display: flex;
+        align-items: center;
+        appearance: none;
+        background-color: #000000;
+        border-radius: 5.625rem;
+        border-width: 0;
+        box-shadow: rgba(45, 35, 66, 0.2) 0 0.125rem 0.25rem,
+                    rgba(45, 35, 66, 0.15) 0 0.4375rem 0.8125rem -0.1875rem,
+                    #d6d6e7 0 -0.1875rem 0 inset;
+        box-sizing: border-box;
+        color: #ffffff;
+        opacity: 0.7;
+        cursor: pointer;
+        font-family: "JetBrains Mono", monospace;
+        height: 2.5rem;
+        width: 8.125rem;
+        justify-content: center;
+        line-height: 1;
+        list-style: none;
+        overflow: hidden;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        margin-top: 50%;
+        margin-left: 20%;
+        position: absolute;
+        text-align: left;
+        text-decoration: none;
+        transition: box-shadow 0.15s, transform 0.15s;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        white-space: nowrap;
+        will-change: box-shadow, transform;
+        font-size: 1.125rem;
+        &:focus{
+            box-shadow: #d6d6e7 0 0 0 0.0938rem inset,
+            rgba(45, 35, 66, 0.4) 0 0.125rem 0.25rem,
+            rgba(45, 35, 66, 0.3) 0 0.4375rem 0.8125rem -0.1875rem,
+            #d6d6e7 0 -0.1875rem 0 inset;
+        }
+        &:hover{
+            box-shadow: rgba(45, 35, 66, 0.3) 0 0.25rem 0.5rem,
+            rgba(45, 35, 66, 0.2) 0 0.4375rem 0.8125rem -0.1875rem,
+            #d6d6e7 0 -0.1875rem 0 inset;
+            transform: translateY(-0.125rem);
+        }
+        &:active{
+            box-shadow: #d6d6e7 0 0.1875rem 0.4375rem inset;
+            transform: translateY(0.125rem);
+        }
+    }
+}

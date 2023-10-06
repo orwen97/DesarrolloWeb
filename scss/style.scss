@@ -1,7 +1,14 @@
 /**Primero variables, mixings y todo dentro de utilities**/
 @import "./utilities/variables";
+@import "./utilities/mixins";
 
 /**Ahora todo lo que esta en base**/
+@import "./base/reset";
+
+/**Todo lo que este en layout**/
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
 
 
-/**Todod lo que este en layout**/
+@import "./components/botones"
