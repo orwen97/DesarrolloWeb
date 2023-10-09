@@ -1,4 +1,17 @@
 /**Primero variables, mixings y todo dentro de utilities**/
+/**TIENDA- MAIN**/
+/**     FOTOS
+        width: 28.125rem;
+        box-shadow: 0.1875rem 0.1875rem 0.625rem gray;
+        
+        PARRAFOS
+        font-weight: 25rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+
+        COLORES
+        
+         **/
 /**Ahora todo lo que esta en base**/
 * {
   margin: 0;
@@ -417,3 +430,21 @@ footer .descuentoBar {
   .cardJeans .button-name:active {
     box-shadow: #d6d6e7 0 0.1875rem 0.4375rem inset;
     transform: translateY(0.125rem); }
+
+/**CARDS MAIN TIENDA**/
+.productos {
+  display: flex;
+  gap: 1.6rem;
+  padding: 2rem;
+  justify-content: space-evenly; }
+  .productos .fotosProductos {
+    width: 100%;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem gray; }
+  .productos p {
+    font-weight: 25rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    width: fit-content; }
+  .productos .colores {
+    height: 1.3125rem; }
