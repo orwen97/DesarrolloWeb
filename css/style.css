@@ -1,17 +1,4 @@
 /**Primero variables, mixings y todo dentro de utilities**/
-/**TIENDA- MAIN**/
-/**     FOTOS
-        width: 28.125rem;
-        box-shadow: 0.1875rem 0.1875rem 0.625rem gray;
-        
-        PARRAFOS
-        font-weight: 25rem;
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-
-        COLORES
-        
-         **/
 /**Ahora todo lo que esta en base**/
 * {
   margin: 0;
@@ -344,6 +331,78 @@ footer .descuentoBar {
     line-height: 2.5rem;
     letter-spacing: 0.14em;
     text-align: center; }
+
+/**MAIN MUNDO LMY PAGE**/
+.imagenInicio img {
+  width: 100%;
+  margin-top: 0.8rem; }
+
+.primerTexto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem; }
+  .primerTexto div {
+    align-self: center;
+    justify-self: center; }
+    .primerTexto div p {
+      font-size: 1.25rem;
+      line-height: 2.5rem;
+      letter-spacing: 0.2em; }
+  .primerTexto .imgLimay1 {
+    width: 100%; }
+
+.segundoTexto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10rem; }
+  .segundoTexto div {
+    align-self: center; }
+    .segundoTexto div p {
+      font-size: 1.25rem;
+      line-height: 2.5rem;
+      letter-spacing: 0.2em; }
+  .segundoTexto .imgLimay2 {
+    width: 100%;
+    padding: 2rem; }
+
+.textoMedio {
+  margin-top: 3.125rem;
+  padding-top: 3.125rem;
+  padding-bottom: 1.5rem;
+  background-color: #f9f9f9;
+  box-shadow: 0.1875rem 0.1875rem 0.625rem gray; }
+  .textoMedio p {
+    font-weight: 31.25rem;
+    font-size: 1.25rem;
+    line-height: 3.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center; }
+  .textoMedio div {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin: 5rem; }
+    .textoMedio div img {
+      width: 16rem; }
+
+.accesosMundoLmy {
+  margin-top: 3rem; }
+  .accesosMundoLmy h2 {
+    font-weight: 31.25rem;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    letter-spacing: 0.12em;
+    text-decoration-line: underline;
+    text-align: center; }
+  .accesosMundoLmy div {
+    display: flex;
+    margin: 2rem;
+    gap: 2rem; }
+    .accesosMundoLmy div .botones {
+      width: 30rem; }
+    .accesosMundoLmy div .sustent {
+      width: 48rem; }
 
 /**BOTONES INDEX**/
 /**boton ver mas inv/jeans main**/
