@@ -641,11 +641,12 @@ main div iframe {
   width: 100%; }
 
 @media (max-width: 1024px) {
-  /**INDEX**/
+  /**HEADER**/
   nav .navBar li a {
     font-size: 1rem;
     margin-right: 3rem; } }
 
+/**INDEX**/
 .fotoSlide {
   column-gap: 2rem;
   margin-top: 2rem; }
@@ -673,6 +674,7 @@ main div iframe {
   .iconosMain div h2 {
     font-size: 1.2em; }
 
+/**NEWSLETTER**/
 .newsletter img {
   width: 100%;
   margin-top: 0rem;
@@ -721,3 +723,57 @@ main div iframe {
 
 .accesosMundoLmy div .sustent {
   width: 30rem; }
+
+@media (max-width: 768px) {
+  /**HEADER**/
+  header .header-iconos .logoImg a img {
+    width: 8rem; }
+  header .header-iconos .searchIcon {
+    display: none; }
+  header .header-iconos .menuIcon {
+    display: grid;
+    grid-column: 1 / 2; }
+  header .header-iconos .logotype {
+    margin-left: 2.7rem; }
+    header .header-iconos .logotype a {
+      font-size: 1.8rem;
+      letter-spacing: 2rem; }
+  header .header-iconos .cartLogin {
+    grid-column: 3 / 4; }
+    header .header-iconos .cartLogin .login {
+      display: none; }
+  nav {
+    display: none; } }
+
+/**INDEX**/
+main section .carruselInicio {
+  display: none; }
+
+main section .carruselMobile {
+  display: flex;
+  width: 100%; }
+
+main .cardsAccess {
+  margin-top: 1rem; }
+  main .cardsAccess .cardInv .button-name {
+    display: none; }
+  main .cardsAccess .cardJeans .button-name {
+    display: none; }
+
+main .fotoSlide {
+  grid-template-rows: 2rem 20rem;
+  column-gap: 1rem;
+  margin-top: 1rem;
+  height: 26rem; }
+  main .fotoSlide h2 {
+    font-size: 1rem; }
+  main .fotoSlide img {
+    margin-top: 0.3rem; }
+
+main .accesoDos {
+  margin-top: 0rem; }
+  main .accesoDos .accSet a {
+    font-size: 1.5rem; }
+  main .accesoDos .nosSet a {
+    font-size: 1.5rem;
+    margin-bottom: 1.9rem; }
