@@ -5,13 +5,16 @@
 /**Ahora todo lo que esta en base**/
 @import "./base/reset";
 
+@import "./components/botones";
+@import "./components/cards";
+
 /**Todo lo que este en layout**/
 @import "./layout/header";
 @import "./layout/main-index";
 @import "./layout/footer";
 @import "./layout/main-mundoLmy";
+@import "./layout/newsletter";
 @import "./layout/main-faq";
 @import "./layout/form-contactos";
+@import "./layout/medias/media1024-";
 
-@import "./components/botones";
-@import "./components/cards";
