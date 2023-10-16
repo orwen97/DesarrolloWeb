@@ -399,6 +399,75 @@ footer .descuentoBar {
   .textoDudas img {
     width: 28.9375rem; }
 
+main section {
+  display: flex;
+  align-items: center; }
+  main section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+    background-color: #363636; }
+    main section form .form_front {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      backface-visibility: hidden;
+      padding: 65px 45px;
+      border-radius: 15px;
+      box-shadow: inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+      main section form .form_front .form_details {
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        color: white; }
+      main section form .form_front .input {
+        width: 420px;
+        min-height: 45px;
+        color: #fff;
+        outline: none;
+        transition: 0.35s;
+        padding: 0px 7px;
+        background-color: #000000;
+        border-radius: 6px;
+        border: 2px solid #212121;
+        box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6); }
+        main section form .form_front .input .placeholder {
+          color: #999; }
+        main section form .form_front .input:focus {
+          transition: 0.3s;
+          opacity: 0;
+          transform: scale(1.05);
+          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+      main section form .form_front .btn {
+        padding: 10px 35px;
+        cursor: pointer;
+        background-color: #212121;
+        border-radius: 6px;
+        border: 2px solid #212121;
+        box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6);
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        transition: 0.35s; }
+        main section form .form_front .btn:hover {
+          transform: scale(1.05);
+          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+        main section form .form_front .btn:focus {
+          transform: scale(1.05);
+          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+
+main .infoContacto h2 {
+  font-weight: 25rem;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  text-align: right;
+  letter-spacing: 0.14em;
+  padding-right: 1.25rem; }
+
 /**BOTONES INDEX**/
 /**boton ver mas inv/jeans main**/
 .cardInv .button-name {
