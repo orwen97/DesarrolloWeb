@@ -957,9 +957,16 @@ main div iframe {
   /**TIENDA**/
   .productos {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    gap: 0rem; }
     .productos div {
       display: contents; }
       .productos div .fotosProductos {
         width: 60%; }
+      .productos div p {
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+        text-align: center; }
+      .productos div .colores {
+        display: none; }
   /**MUNDO LMY**/ }

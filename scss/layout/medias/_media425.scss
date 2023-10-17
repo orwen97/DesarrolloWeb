@@ -168,16 +168,25 @@
     .productos{
         display: flex;
         flex-direction: column;
+        gap: 0rem;
         div{
             display: contents;
             .fotosProductos{
                 width: 60%;
             }
+            p{
+                font-size: 1rem;
+                margin-bottom: 2.5rem;
+                text-align: center;
+            }
+            .colores{
+                display: none;
+            }
         }
     }
 
     /**MUNDO LMY**/
-    
+
 
 
 }
