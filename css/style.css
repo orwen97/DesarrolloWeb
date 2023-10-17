@@ -814,4 +814,31 @@ main div iframe {
     gap: 1rem;
     padding: 1rem; }
     .productos div .fotosProductos {
-      width: 18rem; } }
+      width: 18rem; }
+  /**MUNDO LMY**/
+  .primerTexto div p {
+    font-size: 0.8rem;
+    line-height: 1.9rem; }
+  .segundoTexto {
+    margin-top: 3rem; }
+    .segundoTexto div p {
+      font-size: 0.8rem;
+      line-height: 1.9rem; }
+  .textoMedio {
+    padding: 1.3rem; }
+    .textoMedio p {
+      font-size: 0.8rem; }
+    .textoMedio div img {
+      width: 10rem; }
+  .accesosMundoLmy {
+    margin-top: 2rem; }
+    .accesosMundoLmy h2 {
+      font-size: 1.2rem; }
+    .accesosMundoLmy div {
+      gap: 0.8rem; }
+      .accesosMundoLmy div .botones {
+        width: 15rem;
+        height: 16rem; }
+      .accesosMundoLmy div .sustent {
+        width: 24rem;
+        height: 16rem; } }

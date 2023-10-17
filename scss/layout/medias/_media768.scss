@@ -164,4 +164,50 @@
             }
         }
 
+    /**MUNDO LMY**/
+    .primerTexto{
+        div{
+            p{
+                font-size: 0.8rem;
+                line-height: 1.9rem;
+            }
+        }
+    }
+    .segundoTexto{
+        margin-top: 3rem;
+        div{
+            p{
+                font-size: 0.8rem;
+                line-height: 1.9rem;
+            }
+        }
+    }
+    .textoMedio{
+        padding: 1.3rem;
+        p{
+            font-size: 0.8rem;
+        }
+        div{
+            img{
+                width: 10rem;
+            }
+        }
+    }
+    .accesosMundoLmy{
+        margin-top: 2rem;
+        h2{
+            font-size: 1.2rem;
+        }
+        div{
+            gap: 0.8rem;
+            .botones{
+                width: 15rem;
+                height: 16rem;
+            }
+            .sustent{
+                width: 24rem;
+                height: 16rem;
+            }
+        }
+    }
 }   
