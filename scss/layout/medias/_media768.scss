@@ -34,7 +34,7 @@
     nav{
         display: none;
     }
-}
+
 
 /**INDEX**/
     main{
@@ -150,3 +150,18 @@
             justify-self: center
         }
     }
+
+    /**TIENDA**/
+    .productos{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1rem;
+        padding: 1rem;
+        div{
+            .fotosProductos{
+                width: 18rem;
+            }
+            }
+        }
+
+}   
