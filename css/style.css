@@ -953,4 +953,13 @@ main div iframe {
     height: 2.1875rem; }
     footer .descuentoBar p {
       font-size: 0.7rem;
-      text-align: center; } }
+      text-align: center; }
+  /**TIENDA**/
+  .productos {
+    display: flex;
+    flex-direction: column; }
+    .productos div {
+      display: contents; }
+      .productos div .fotosProductos {
+        width: 60%; }
+  /**MUNDO LMY**/ }

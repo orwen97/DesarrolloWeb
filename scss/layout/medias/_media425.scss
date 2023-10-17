@@ -164,5 +164,20 @@
         }
     }
 
+    /**TIENDA**/
+    .productos{
+        display: flex;
+        flex-direction: column;
+        div{
+            display: contents;
+            .fotosProductos{
+                width: 60%;
+            }
+        }
+    }
+
+    /**MUNDO LMY**/
+    
+
 
 }
