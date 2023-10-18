@@ -1,29 +1,23 @@
 /**CARDS MAIN TIENDA**/
-/**VARIABLES**/
-$background: #fcfcfc;
 
-main{
-    background-color: $background;
-    .productos{
-        display: flex;
-        gap: 1.6rem;
-        padding: 2rem;
-        justify-content: space-evenly;
-        .fotosProductos{
-            width: 100%;
-            box-shadow: 0.1875rem 0.1875rem 0.625rem gray;
-        }
-        p{
-            font-weight: 25rem;
-            font-size: 1.25rem;
-            line-height: 1.5rem;
-            margin-top: 1rem;
-            width: fit-content;
-        }
-        .colores{
-            height: 1.3125rem;
-        }
+.productos{
+    display: flex;
+    gap: 1.6rem;
+    padding: 2rem;
+    justify-content: space-evenly;
+    .fotosProductos{
+        width: 100%;
+        box-shadow: 0.1875rem 0.1875rem 0.625rem gray;
+    }
+    p{
+        font-weight: 25rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+        width: fit-content;
+    }
+    .colores{
+        height: 1.3125rem;
     }
 }
-
 

@@ -1,192 +1,96 @@
 /**MAIN MUNDO LMY PAGE**/
-main{
-    background-color: $background;
-    .imagenInicio{
+
+.imagenInicio{
     img{
         width: 100%;
         margin-top: 0.8rem;
     }
-    }
-    .mundoLmyMobile{
+}
+.mundoLmyMobile{
+    display: none;
+}
+.primerTexto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    .maquinaMobile{
         display: none;
     }
-    .primerTexto{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 5rem;
-        .maquinaMobile{
-            display: none;
-        }
-        div{
-            align-self: center;
-            justify-self: center;
-            p{
-                font-size: 1.25rem;
-                line-height: 2.5rem;
-                letter-spacing: 0.2em;
-            }
-        }
-        .imgLimay1{
-            width: 100%;
-        }
-    }
-    .segundoTexto{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 10rem;
-        div{
-            align-self: center;
-            p{
-                font-size: 1.25rem;
-                line-height: 2.5rem;
-                letter-spacing: 0.2em;
-            }
-        }
-        .imgLimay2{
-            width: 100%;
-            padding: 2rem;
-        }
-    }
-    .textoMedio{
-        margin-top: 3.125rem;
-        padding-top: 3.125rem;
-        padding-bottom: 1.5rem;
-        background-color: #f9f9f9;
-        box-shadow: 0.1875rem 0.1875rem 0.625rem gray;
+    div{
+        align-self: center;
+        justify-self: center;
         p{
-            font-weight: 31.25rem;
             font-size: 1.25rem;
-            line-height: 3.75rem;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            text-align: center;
-        }
-        div{
-            display: flex;
-            justify-content: center;
-            gap: 8rem;
-            margin: 5rem;
-            img{
-                width: 16rem;
-            }
+            line-height: 2.5rem;
+            letter-spacing: 0.2em;
         }
     }
-    .accesosMundoLmy{
-        margin-top: 3rem;
-        display: grid;
-        h2{
-            font-weight: 31.25rem;
-            font-size: 2.5rem;
-            line-height: 3.75rem;
-            letter-spacing: 0.12em;
-            text-decoration-line: underline;
-            text-align: center;
-        }
-        div{
-            display: flex;
-            justify-content: space-evenly;
-            margin-top: 2.5rem;
-            gap: 2rem;
-            .botones{
-                width: 30rem;
-            }
-            .sustent{
-                width: 48rem;
-            }
+    .imgLimay1{
+        width: 100%;
+    }
+}
+.segundoTexto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
+    div{
+        align-self: center;
+        p{
+            font-size: 1.25rem;
+            line-height: 2.5rem;
+            letter-spacing: 0.2em;
         }
     }
-        .imagenInicio{
-            img{
-                width: 100%;
-                margin-top: 0.8rem;
-            }
+    .imgLimay2{
+        width: 100%;
+        padding: 2rem;
+    }
+}
+.textoMedio{
+    margin-top: 3.125rem;
+    padding-top: 3.125rem;
+    padding-bottom: 1.5rem;
+    background-color: #f9f9f9;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem gray;
+    p{
+        font-weight: 31.25rem;
+        font-size: 1.25rem;
+        line-height: 3.75rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        gap: 8rem;
+        margin: 5rem;
+        img{
+            width: 16rem;
         }
-        .mundoLmyMobile{
-            display: none;
+    }
+}
+.accesosMundoLmy{
+    margin-top: 3rem;
+    display: grid;
+    h2{
+        font-weight: 31.25rem;
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+        letter-spacing: 0.12em;
+        text-decoration-line: underline;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2.5rem;
+        gap: 2rem;
+        .botones{
+            width: 30rem;
         }
-        .primerTexto{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            margin-top: 5rem;
-            .maquinaMobile{
-                display: none;
-            }
-            div{
-                align-self: center;
-                justify-self: center;
-                p{
-                    font-size: 1.25rem;
-                    line-height: 2.5rem;
-                    letter-spacing: 0.2em;
-                }
-            }
-            .imgLimay1{
-                width: 100%;
-            }
+        .sustent{
+            width: 48rem;
         }
-        .segundoTexto{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            margin-top: 10rem;
-            div{
-                align-self: center;
-                p{
-                    font-size: 1.25rem;
-                    line-height: 2.5rem;
-                    letter-spacing: 0.2em;
-                }
-            }
-            .imgLimay2{
-                width: 100%;
-                padding: 2rem;
-            }
-        }
-        .textoMedio{
-            margin-top: 3.125rem;
-            padding-top: 3.125rem;
-            padding-bottom: 1.5rem;
-            background-color: #f9f9f9;
-            box-shadow: 0.1875rem 0.1875rem 0.625rem gray;
-            p{
-                font-weight: 31.25rem;
-                font-size: 1.25rem;
-                line-height: 3.75rem;
-                letter-spacing: 0.12em;
-                text-transform: uppercase;
-                text-align: center;
-            }
-            div{
-                display: flex;
-                justify-content: center;
-                gap: 8rem;
-                margin: 5rem;
-                img{
-                    width: 16rem;
-                }
-            }
-        }
-        .accesosMundoLmy{
-            margin-top: 3rem;
-            display: grid;
-            h2{
-                font-weight: 31.25rem;
-                font-size: 2.5rem;
-                line-height: 3.75rem;
-                letter-spacing: 0.12em;
-                text-decoration-line: underline;
-                text-align: center;
-            }
-            div{
-                display: flex;
-                justify-content: space-evenly;
-                margin-top: 2.5rem;
-                gap: 2rem;
-                .botones{
-                    width: 30rem;
-                }
-                .sustent{
-                    width: 48rem;
-                }
-            }
-        }
+    }
 }
