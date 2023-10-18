@@ -6,10 +6,16 @@
         margin-top: 0.8rem;
     }
 }
+.mundoLmyMobile{
+    display: none;
+}
 .primerTexto{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
+    .maquinaMobile{
+        display: none;
+    }
     div{
         align-self: center;
         justify-self: center;

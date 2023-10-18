@@ -186,6 +186,83 @@
     }
 
     /**MUNDO LMY**/
+    .imagenInicio{
+        img{
+            display: none;
+        }
+    }
+    .mundoLmyMobile{
+        display: flex;
+        margin: 0.5rem;
+        img{
+            width: 100%;
+        }
+    }
+    .primerTexto{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.8rem;
+        .maquinaMobile{
+            display: contents;
+            width: 100%;
+        }
+        div{
+            margin-top: 1.3rem;
+            p{
+                font-size: 0.8rem;
+                text-align: center;
+            }
+        }
+        .imgLimay1{
+            display: none;
+        }
+    }
+    .segundoTexto{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        .imgLimay2{
+            width: 100%;
+        }
+        div{
+            p{
+                font-size: 0.8rem;
+                text-align: center;
+                line-height: 1.5rem;
+            }
+        }
+    }
+    .textoMedio{
+        height: 15rem;
+        p{
+            font-size: 0.6rem;
+            line-height: 1.5rem;
+        }
+        div{
+            img{
+                display: none;
+            }
+        }
+    }
+    .accesosMundoLmy{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 1rem;
+        }
+        div{
+            flex-direction: column;
+            margin-top: 0rem;
+            align-items: center;
+            .botones{
+                width: 22rem;
+                height: 20rem;
+            }
+            .sustent{
+                width: 22rem;
+            }
+        }
+    }
 
 
 

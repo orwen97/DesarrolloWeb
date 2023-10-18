@@ -383,10 +383,15 @@ footer .descuentoBar {
   width: 100%;
   margin-top: 0.8rem; }
 
+.mundoLmyMobile {
+  display: none; }
+
 .primerTexto {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 5rem; }
+  .primerTexto .maquinaMobile {
+    display: none; }
   .primerTexto div {
     align-self: center;
     justify-self: center; }
@@ -969,4 +974,56 @@ main div iframe {
         text-align: center; }
       .productos div .colores {
         display: none; }
-  /**MUNDO LMY**/ }
+  /**MUNDO LMY**/
+  .imagenInicio img {
+    display: none; }
+  .mundoLmyMobile {
+    display: flex;
+    margin: 0.5rem; }
+    .mundoLmyMobile img {
+      width: 100%; }
+  .primerTexto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.8rem; }
+    .primerTexto .maquinaMobile {
+      display: contents;
+      width: 100%; }
+    .primerTexto div {
+      margin-top: 1.3rem; }
+      .primerTexto div p {
+        font-size: 0.8rem;
+        text-align: center; }
+    .primerTexto .imgLimay1 {
+      display: none; }
+  .segundoTexto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem; }
+    .segundoTexto .imgLimay2 {
+      width: 100%; }
+    .segundoTexto div p {
+      font-size: 0.8rem;
+      text-align: center;
+      line-height: 1.5rem; }
+  .textoMedio {
+    height: 15rem; }
+    .textoMedio p {
+      font-size: 0.6rem;
+      line-height: 1.5rem; }
+    .textoMedio div img {
+      display: none; }
+  .accesosMundoLmy {
+    display: flex;
+    flex-direction: column; }
+    .accesosMundoLmy h2 {
+      font-size: 1rem; }
+    .accesosMundoLmy div {
+      flex-direction: column;
+      margin-top: 0rem;
+      align-items: center; }
+      .accesosMundoLmy div .botones {
+        width: 22rem;
+        height: 20rem; }
+      .accesosMundoLmy div .sustent {
+        width: 22rem; } }
