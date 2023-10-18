@@ -92,22 +92,25 @@
     transform: translateY(0.125rem); }
 
 /**CARDS MAIN TIENDA**/
-.productos {
-  display: flex;
-  gap: 1.6rem;
-  padding: 2rem;
-  justify-content: space-evenly; }
-  .productos .fotosProductos {
-    width: 100%;
-    box-shadow: 0.1875rem 0.1875rem 0.625rem gray; }
-  .productos p {
-    font-weight: 25rem;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    margin-top: 1rem;
-    width: fit-content; }
-  .productos .colores {
-    height: 1.3125rem; }
+/**VARIABLES**/
+main {
+  background-color: #fcfcfc; }
+  main .productos {
+    display: flex;
+    gap: 1.6rem;
+    padding: 2rem;
+    justify-content: space-evenly; }
+    main .productos .fotosProductos {
+      width: 100%;
+      box-shadow: 0.1875rem 0.1875rem 0.625rem gray; }
+    main .productos p {
+      font-weight: 25rem;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      margin-top: 1rem;
+      width: fit-content; }
+    main .productos .colores {
+      height: 1.3125rem; }
 
 /**Todo lo que este en layout**/
 .header-iconos {
@@ -171,143 +174,138 @@
     letter-spacing: 0.2em;
     font-family: "Inter", sans-serif; }
 
-section .carruselInicio {
-  display: flex;
-  width: 100%; }
-
-section .carruselMobile {
-  display: none; }
-
-.cardsAccess {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 3.75rem; }
-  .cardsAccess .cardInv img {
+/**VARIABLES**/
+main {
+  background-color: #fcfcfc; }
+  main section .carruselInicio {
+    display: flex;
     width: 100%; }
-  .cardsAccess .cardJeans img {
-    width: 100%; }
-
-.cardsAccessMobile {
-  display: none; }
-
-.fotoSlide {
-  width: 100%;
-  height: 30rem;
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-template-rows: 5.625rem 1fr;
-  column-gap: 9.375rem;
-  justify-content: center;
-  margin-top: 3rem; }
-  .fotoSlide h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.9rem;
-    line-height: 5rem;
-    letter-spacing: 0.2em;
-    grid-row: 1 / 2;
-    grid-column: 1 / 6;
-    justify-self: center; }
-  .fotoSlide img {
+  main section .carruselMobile {
+    display: none; }
+  main .cardsAccess {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.75rem; }
+    main .cardsAccess .cardInv img {
+      width: 100%; }
+    main .cardsAccess .cardJeans img {
+      width: 100%; }
+  main .cardsAccessMobile {
+    display: none; }
+  main .fotoSlide {
     width: 100%;
-    margin-top: 2.5rem;
-    grid-row: 2 / 3;
-    box-shadow: 0.4rem 0.375rem 0.5rem rgba(0, 0, 0, 0.25); }
-
-.accesoDos {
-  margin-top: 8.125rem;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  column-gap: 0.1rem;
-  row-gap: 1rem;
-  position: relative; }
-  .accesoDos .basicosSet {
+    height: 30rem;
     display: grid;
-    grid-row: 1 / 3;
-    grid-column: 1 / 2;
-    justify-content: center; }
-    .accesoDos .basicosSet img {
-      width: 100%;
-      align-self: center; }
-    .accesoDos .basicosSet a {
-      text-decoration: none;
-      color: white;
-      font-weight: 25rem;
-      font-size: 3.9rem;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: 5.625rem 1fr;
+    column-gap: 9.375rem;
+    justify-content: center;
+    margin-top: 3rem; }
+    main .fotoSlide h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.9rem;
       line-height: 5rem;
       letter-spacing: 0.2em;
-      position: absolute;
-      justify-self: center;
-      align-self: center;
-      justify-self: center;
-      align-self: center; }
-  .accesoDos .accSet {
-    display: grid;
-    justify-self: center; }
-    .accesoDos .accSet img {
+      grid-row: 1 / 2;
+      grid-column: 1 / 6;
+      justify-self: center; }
+    main .fotoSlide img {
       width: 100%;
-      grid-column: 2 / 3; }
-    .accesoDos .accSet a {
-      text-decoration: none;
-      color: white;
-      font-weight: 25rem;
-      font-size: 3.9rem;
-      line-height: 5rem;
-      letter-spacing: 0.2em;
-      position: absolute;
-      justify-self: center;
-      align-self: center;
-      grid-column: 2 / 3;
-      justify-self: center;
-      align-self: center; }
-  .accesoDos .nosSet {
+      margin-top: 2.5rem;
+      grid-row: 2 / 3;
+      box-shadow: 0.4rem 0.375rem 0.5rem rgba(0, 0, 0, 0.25); }
+  main .accesoDos {
+    margin-top: 8.125rem;
     display: grid;
-    justify-self: center; }
-    .accesoDos .nosSet img {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 0.1rem;
+    row-gap: 1rem;
+    position: relative; }
+    main .accesoDos .basicosSet {
+      display: grid;
+      grid-row: 1 / 3;
+      grid-column: 1 / 2;
+      justify-content: center; }
+      main .accesoDos .basicosSet img {
+        width: 100%;
+        align-self: center; }
+      main .accesoDos .basicosSet a {
+        text-decoration: none;
+        color: white;
+        font-weight: 25rem;
+        font-size: 3.9rem;
+        line-height: 5rem;
+        letter-spacing: 0.2em;
+        position: absolute;
+        justify-self: center;
+        align-self: center;
+        justify-self: center;
+        align-self: center; }
+    main .accesoDos .accSet {
+      display: grid;
+      justify-self: center; }
+      main .accesoDos .accSet img {
+        width: 100%;
+        grid-column: 2 / 3; }
+      main .accesoDos .accSet a {
+        text-decoration: none;
+        color: white;
+        font-weight: 25rem;
+        font-size: 3.9rem;
+        line-height: 5rem;
+        letter-spacing: 0.2em;
+        position: absolute;
+        justify-self: center;
+        align-self: center;
+        grid-column: 2 / 3;
+        justify-self: center;
+        align-self: center; }
+    main .accesoDos .nosSet {
+      display: grid;
+      justify-self: center; }
+      main .accesoDos .nosSet img {
+        width: 100%;
+        grid-column: 2 / 3; }
+      main .accesoDos .nosSet a {
+        text-decoration: none;
+        color: white;
+        font-weight: 25rem;
+        font-size: 3.9rem;
+        line-height: 5rem;
+        letter-spacing: 0.2em;
+        position: absolute;
+        justify-self: center;
+        align-self: center;
+        grid-column: 2 / 3;
+        justify-self: center;
+        align-self: center; }
+  main .accesoDosMobile {
+    display: none; }
+  main .iconosMain {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+    padding-bottom: 6rem;
+    padding-top: 8rem;
+    box-shadow: 0.5rem 0.9rem 0.7rem rgba(0, 0, 0, 0.25); }
+    main .iconosMain .reciclaje img {
       width: 100%;
-      grid-column: 2 / 3; }
-    .accesoDos .nosSet a {
-      text-decoration: none;
-      color: white;
-      font-weight: 25rem;
-      font-size: 3.9rem;
-      line-height: 5rem;
-      letter-spacing: 0.2em;
-      position: absolute;
-      justify-self: center;
-      align-self: center;
-      grid-column: 2 / 3;
-      justify-self: center;
-      align-self: center; }
-
-.accesoDosMobile {
-  display: none; }
-
-.iconosMain {
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  text-align: center;
-  justify-content: space-around;
-  align-items: flex-end;
-  margin-top: 5rem;
-  margin-bottom: 8rem;
-  padding-bottom: 6rem;
-  padding-top: 8rem;
-  box-shadow: 0.5rem 0.9rem 0.7rem rgba(0, 0, 0, 0.25); }
-  .iconosMain .reciclaje img {
-    width: 100%;
-    margin-top: 0.5rem; }
-  .iconosMain .envios img {
-    width: 100%;
-    margin-top: 0.5rem; }
-  .iconosMain .pagos img {
-    width: 100%;
-    margin-top: 0.5rem; }
-
-.cardsMobile {
-  display: none; }
+      margin-top: 0.5rem; }
+    main .iconosMain .envios img {
+      width: 100%;
+      margin-top: 0.5rem; }
+    main .iconosMain .pagos img {
+      width: 100%;
+      margin-top: 0.5rem; }
+  main .cardsMobile {
+    display: none; }
 
 footer .final {
   background-color: white;
@@ -379,83 +377,152 @@ footer .descuentoBar {
     text-align: center; }
 
 /**MAIN MUNDO LMY PAGE**/
-.imagenInicio img {
-  width: 100%;
-  margin-top: 0.8rem; }
-
-.mundoLmyMobile {
-  display: none; }
-
-.primerTexto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 5rem; }
-  .primerTexto .maquinaMobile {
-    display: none; }
-  .primerTexto div {
-    align-self: center;
-    justify-self: center; }
-    .primerTexto div p {
-      font-size: 1.25rem;
-      line-height: 2.5rem;
-      letter-spacing: 0.2em; }
-  .primerTexto .imgLimay1 {
-    width: 100%; }
-
-.segundoTexto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 10rem; }
-  .segundoTexto div {
-    align-self: center; }
-    .segundoTexto div p {
-      font-size: 1.25rem;
-      line-height: 2.5rem;
-      letter-spacing: 0.2em; }
-  .segundoTexto .imgLimay2 {
+main {
+  background-color: #fcfcfc; }
+  main .imagenInicio img {
     width: 100%;
-    padding: 2rem; }
-
-.textoMedio {
-  margin-top: 3.125rem;
-  padding-top: 3.125rem;
-  padding-bottom: 1.5rem;
-  background-color: #f9f9f9;
-  box-shadow: 0.1875rem 0.1875rem 0.625rem gray; }
-  .textoMedio p {
-    font-weight: 31.25rem;
-    font-size: 1.25rem;
-    line-height: 3.75rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    text-align: center; }
-  .textoMedio div {
-    display: flex;
-    justify-content: center;
-    gap: 8rem;
-    margin: 5rem; }
-    .textoMedio div img {
-      width: 16rem; }
-
-.accesosMundoLmy {
-  margin-top: 3rem;
-  display: grid; }
-  .accesosMundoLmy h2 {
-    font-weight: 31.25rem;
-    font-size: 2.5rem;
-    line-height: 3.75rem;
-    letter-spacing: 0.12em;
-    text-decoration-line: underline;
-    text-align: center; }
-  .accesosMundoLmy div {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2.5rem;
-    gap: 2rem; }
-    .accesosMundoLmy div .botones {
-      width: 30rem; }
-    .accesosMundoLmy div .sustent {
-      width: 48rem; }
+    margin-top: 0.8rem; }
+  main .mundoLmyMobile {
+    display: none; }
+  main .primerTexto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem; }
+    main .primerTexto .maquinaMobile {
+      display: none; }
+    main .primerTexto div {
+      align-self: center;
+      justify-self: center; }
+      main .primerTexto div p {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.2em; }
+    main .primerTexto .imgLimay1 {
+      width: 100%; }
+  main .segundoTexto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem; }
+    main .segundoTexto div {
+      align-self: center; }
+      main .segundoTexto div p {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.2em; }
+    main .segundoTexto .imgLimay2 {
+      width: 100%;
+      padding: 2rem; }
+  main .textoMedio {
+    margin-top: 3.125rem;
+    padding-top: 3.125rem;
+    padding-bottom: 1.5rem;
+    background-color: #f9f9f9;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem gray; }
+    main .textoMedio p {
+      font-weight: 31.25rem;
+      font-size: 1.25rem;
+      line-height: 3.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-align: center; }
+    main .textoMedio div {
+      display: flex;
+      justify-content: center;
+      gap: 8rem;
+      margin: 5rem; }
+      main .textoMedio div img {
+        width: 16rem; }
+  main .accesosMundoLmy {
+    margin-top: 3rem;
+    display: grid; }
+    main .accesosMundoLmy h2 {
+      font-weight: 31.25rem;
+      font-size: 2.5rem;
+      line-height: 3.75rem;
+      letter-spacing: 0.12em;
+      text-decoration-line: underline;
+      text-align: center; }
+    main .accesosMundoLmy div {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 2.5rem;
+      gap: 2rem; }
+      main .accesosMundoLmy div .botones {
+        width: 30rem; }
+      main .accesosMundoLmy div .sustent {
+        width: 48rem; }
+  main .imagenInicio img {
+    width: 100%;
+    margin-top: 0.8rem; }
+  main .mundoLmyMobile {
+    display: none; }
+  main .primerTexto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem; }
+    main .primerTexto .maquinaMobile {
+      display: none; }
+    main .primerTexto div {
+      align-self: center;
+      justify-self: center; }
+      main .primerTexto div p {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.2em; }
+    main .primerTexto .imgLimay1 {
+      width: 100%; }
+  main .segundoTexto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem; }
+    main .segundoTexto div {
+      align-self: center; }
+      main .segundoTexto div p {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.2em; }
+    main .segundoTexto .imgLimay2 {
+      width: 100%;
+      padding: 2rem; }
+  main .textoMedio {
+    margin-top: 3.125rem;
+    padding-top: 3.125rem;
+    padding-bottom: 1.5rem;
+    background-color: #f9f9f9;
+    box-shadow: 0.1875rem 0.1875rem 0.625rem gray; }
+    main .textoMedio p {
+      font-weight: 31.25rem;
+      font-size: 1.25rem;
+      line-height: 3.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-align: center; }
+    main .textoMedio div {
+      display: flex;
+      justify-content: center;
+      gap: 8rem;
+      margin: 5rem; }
+      main .textoMedio div img {
+        width: 16rem; }
+  main .accesosMundoLmy {
+    margin-top: 3rem;
+    display: grid; }
+    main .accesosMundoLmy h2 {
+      font-weight: 31.25rem;
+      font-size: 2.5rem;
+      line-height: 3.75rem;
+      letter-spacing: 0.12em;
+      text-decoration-line: underline;
+      text-align: center; }
+    main .accesosMundoLmy div {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 2.5rem;
+      gap: 2rem; }
+      main .accesosMundoLmy div .botones {
+        width: 30rem; }
+      main .accesosMundoLmy div .sustent {
+        width: 48rem; }
 
 .newsletter {
   display: grid;
@@ -519,132 +586,133 @@ footer .descuentoBar {
         transition-property: box-shadow; }
 
 /**MAIN FAQ PAGES**/
-.faqInicio {
-  margin-top: 1rem; }
-  .faqInicio img {
-    width: 100%; }
-
-.primerConsejo {
-  display: flex;
-  padding-top: 7rem;
-  align-items: center;
-  justify-content: space-evenly; }
-  .primerConsejo p {
-    width: 48rem;
-    font-size: 1.5rem;
-    line-height: 3.125rem;
-    letter-spacing: 0.2em;
-    margin-bottom: 3rem; }
-  .primerConsejo img {
-    width: 23.75rem; }
-
-.tablaTalles {
-  display: grid;
-  grid-template-columns: 65% 1fr;
-  grid-template-rows: 20% 30rem; }
-  .tablaTalles h1 {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-    letter-spacing: 0.2em;
-    text-decoration-line: underline;
-    grid-column: 1 / 2;
-    text-align: center;
-    align-self: center; }
-  .tablaTalles img {
-    width: 44.1875rem;
-    grid-row: 2 / 3;
-    justify-self: center; }
-  .tablaTalles iframe {
-    grid-row: 1 / 3;
-    grid-column: 2 / 3;
-    align-self: center;
-    justify-self: center; }
-
-.textoDudas {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 6rem; }
-  .textoDudas p {
-    font-size: 1.5rem;
-    line-height: 3.2rem;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    width: 55%; }
-  .textoDudas img {
-    width: 28.9375rem; }
-
-main section {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  main section form {
+main {
+  background-color: #fcfcfc; }
+  main .faqInicio {
+    margin-top: 1rem; }
+    main .faqInicio img {
+      width: 100%; }
+  main .primerConsejo {
     display: flex;
-    justify-content: center;
+    padding-top: 7rem;
     align-items: center;
-    transform-style: preserve-3d;
-    transition: all 1s ease;
-    background-color: #363636; }
-    main section form .form_front {
+    justify-content: space-evenly; }
+    main .primerConsejo p {
+      width: 48rem;
+      font-size: 1.5rem;
+      line-height: 3.125rem;
+      letter-spacing: 0.2em;
+      margin-bottom: 3rem; }
+    main .primerConsejo img {
+      width: 23.75rem; }
+  main .tablaTalles {
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    grid-template-rows: 20% 30rem; }
+    main .tablaTalles h1 {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      letter-spacing: 0.2em;
+      text-decoration-line: underline;
+      grid-column: 1 / 2;
+      text-align: center;
+      align-self: center; }
+    main .tablaTalles img {
+      width: 44.1875rem;
+      grid-row: 2 / 3;
+      justify-self: center; }
+    main .tablaTalles iframe {
+      grid-row: 1 / 3;
+      grid-column: 2 / 3;
+      align-self: center;
+      justify-self: center; }
+  main .textoDudas {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem; }
+    main .textoDudas p {
+      font-size: 1.5rem;
+      line-height: 3.2rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      width: 55%; }
+    main .textoDudas img {
+      width: 28.9375rem; }
+
+/**MAIN CONTACTOS**/
+/**VARIABLES**/
+.contactosMain {
+  background-color: #d6d6d6; }
+  .contactosMain section {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .contactosMain section form {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 30px;
-      backface-visibility: hidden;
-      padding: 65px 45px;
-      border-radius: 15px;
-      box-shadow: inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
-      main section form .form_front .form_details {
-        font-size: 25px;
-        font-weight: 600;
-        padding-bottom: 10px;
-        color: white; }
-      main section form .form_front .input {
-        width: 420px;
-        min-height: 45px;
-        color: #fff;
-        outline: none;
-        transition: 0.35s;
-        padding: 0px 7px;
-        background-color: #000000;
-        border-radius: 6px;
-        border: 2px solid #212121;
-        box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6); }
-        main section form .form_front .input .placeholder {
-          color: #999; }
-        main section form .form_front .input:focus {
-          transition: 0.3s;
-          opacity: 0;
-          transform: scale(1.05);
-          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
-      main section form .form_front .btn {
-        padding: 10px 35px;
-        cursor: pointer;
-        background-color: #212121;
-        border-radius: 6px;
-        border: 2px solid #212121;
-        box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6);
-        color: #fff;
-        font-size: 15px;
-        font-weight: bold;
-        transition: 0.35s; }
-        main section form .form_front .btn:hover {
-          transform: scale(1.05);
-          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
-        main section form .form_front .btn:focus {
-          transform: scale(1.05);
-          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
-
-main .infoContacto h2 {
-  font-weight: 25rem;
-  font-size: 1rem;
-  line-height: 2.5rem;
-  text-align: right;
-  letter-spacing: 0.14em;
-  padding-right: 1.25rem; }
-
-main div iframe {
-  width: 100%; }
+      transform-style: preserve-3d;
+      transition: all 1s ease;
+      background-color: #363636; }
+      .contactosMain section form .form_front {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        backface-visibility: hidden;
+        padding: 65px 45px;
+        border-radius: 15px;
+        box-shadow: inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+        .contactosMain section form .form_front .form_details {
+          font-size: 25px;
+          font-weight: 600;
+          padding-bottom: 10px;
+          color: white; }
+        .contactosMain section form .form_front .input {
+          width: 420px;
+          min-height: 45px;
+          color: #fff;
+          outline: none;
+          transition: 0.35s;
+          padding: 0px 7px;
+          background-color: #000000;
+          border-radius: 6px;
+          border: 2px solid #212121;
+          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6); }
+          .contactosMain section form .form_front .input .placeholder {
+            color: #999; }
+          .contactosMain section form .form_front .input:focus {
+            transition: 0.3s;
+            opacity: 0;
+            transform: scale(1.05);
+            box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+        .contactosMain section form .form_front .btn {
+          padding: 10px 35px;
+          cursor: pointer;
+          background-color: #212121;
+          border-radius: 6px;
+          border: 2px solid #212121;
+          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6);
+          color: #fff;
+          font-size: 15px;
+          font-weight: bold;
+          transition: 0.35s; }
+          .contactosMain section form .form_front .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+          .contactosMain section form .form_front .btn:focus {
+            transform: scale(1.05);
+            box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+  .contactosMain .infoContacto h2 {
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    text-align: right;
+    letter-spacing: 0.14em;
+    padding-right: 1.25rem; }
+  .contactosMain div iframe {
+    width: 100%; }
 
 @media (max-width: 1024px) {
   /**HEADER**/

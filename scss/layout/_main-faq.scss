@@ -1,63 +1,67 @@
 /**MAIN FAQ PAGES**/
-.faqInicio{
-    margin-top: 1rem;
-    img{
-        width: 100%;
+main{
+    background-color: $background;
+    .faqInicio{
+        margin-top: 1rem;
+        img{
+            width: 100%;
+        }
+    }
+    .primerConsejo{
+        display: flex;
+        padding-top: 7rem;
+        align-items: center;
+        justify-content: space-evenly;
+        p{
+            width: 48rem;
+            font-size: 1.5rem;
+            line-height: 3.125rem;
+            letter-spacing: 0.2em;
+            margin-bottom: 3rem;
+        }
+        img{
+            width: 23.75rem;
+        }
+    }
+    .tablaTalles{
+        display: grid;
+        grid-template-columns: 65% 1fr;
+        grid-template-rows: 20% 30rem;
+        h1{
+            font-size: 1.875rem;
+            line-height: 2.25rem;
+            letter-spacing: 0.2em;
+            text-decoration-line: underline;
+            grid-column: 1 / 2;
+            text-align: center;
+            align-self: center;
+        }
+        img{
+            width: 44.1875rem;
+            grid-row: 2 / 3;
+            justify-self: center;
+        }
+        iframe{
+            grid-row: 1 / 3;
+            grid-column: 2 / 3;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+    .textoDudas{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 6rem;
+        p{
+            font-size: 1.5rem;
+            line-height: 3.2rem;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            width: 55%;
+        }
+        img{
+            width: 28.9375rem;
+        }
     }
 }
-.primerConsejo{
-    display: flex;
-    padding-top: 7rem;
-    align-items: center;
-    justify-content: space-evenly;
-    p{
-        width: 48rem;
-        font-size: 1.5rem;
-        line-height: 3.125rem;
-        letter-spacing: 0.2em;
-        margin-bottom: 3rem;
-    }
-    img{
-        width: 23.75rem;
-    }
-}
-.tablaTalles{
-    display: grid;
-    grid-template-columns: 65% 1fr;
-    grid-template-rows: 20% 30rem;
-    h1{
-        font-size: 1.875rem;
-        line-height: 2.25rem;
-        letter-spacing: 0.2em;
-        text-decoration-line: underline;
-        grid-column: 1 / 2;
-        text-align: center;
-        align-self: center;
-    }
-    img{
-        width: 44.1875rem;
-        grid-row: 2 / 3;
-        justify-self: center;
-    }
-    iframe{
-        grid-row: 1 / 3;
-        grid-column: 2 / 3;
-        align-self: center;
-        justify-self: center;
-    }
-}
-.textoDudas{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 6rem;
-    p{
-        font-size: 1.5rem;
-        line-height: 3.2rem;
-        letter-spacing: 0.22em;
-        text-transform: uppercase;
-        width: 55%;
-    }
-    img{
-        width: 28.9375rem;
-    }
-}
+
