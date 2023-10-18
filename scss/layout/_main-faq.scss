@@ -49,7 +49,9 @@ main{
         }
     }
     .textoDudas{
-        @extend .primerConsejo;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 6rem;
         p{
             font-size: 1.5rem;
             line-height: 3.2rem;

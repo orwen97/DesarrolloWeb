@@ -61,7 +61,13 @@
 }
 
 .navBar{
-    @include flexNav;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    background-color: #eeeeee;
+    padding: 0.5rem;
         li{
             a{
                 text-decoration: none;

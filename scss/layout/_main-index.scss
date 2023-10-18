@@ -129,12 +129,14 @@ main{
         }
         .envios{
             img{
-                @extend .reciclaje;
+                width: 100%;
+                margin-top: 0.5rem;
             }
         }
         .pagos{
             img{
-                @extend .reciclaje
+                width: 100%;
+                margin-top: 0.5rem;
             }
         }
     }
