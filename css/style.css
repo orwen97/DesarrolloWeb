@@ -1,116 +1,10 @@
 /**Primero variables, mixings y todo dentro de utilities**/
+/**VARIABLES**/
 /**Ahora todo lo que esta en base**/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-
-/**BOTONES INDEX**/
-/**boton ver mas inv/jeans main**/
-.cardInv .button-name {
-  display: flex;
-  align-items: center;
-  appearance: none;
-  background-color: #000000;
-  border-radius: 5.625rem;
-  border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.2) 0 0.125rem 0.25rem, rgba(45, 35, 66, 0.15) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset;
-  box-sizing: border-box;
-  color: #ffffff;
-  opacity: 0.7;
-  cursor: pointer;
-  font-family: "JetBrains Mono", monospace;
-  height: 2.5rem;
-  width: 8.125rem;
-  justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  margin-top: 50%;
-  margin-left: 20%;
-  position: absolute;
-  text-align: left;
-  text-decoration: none;
-  transition: box-shadow 0.15s, transform 0.15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow, transform;
-  font-size: 1.125rem; }
-  .cardInv .button-name:focus {
-    box-shadow: #d6d6e7 0 0 0 0.0938rem inset, rgba(45, 35, 66, 0.4) 0 0.125rem 0.25rem, rgba(45, 35, 66, 0.3) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset; }
-  .cardInv .button-name:hover {
-    box-shadow: rgba(45, 35, 66, 0.3) 0 0.25rem 0.5rem, rgba(45, 35, 66, 0.2) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset;
-    transform: translateY(-0.125rem); }
-  .cardInv .button-name:active {
-    box-shadow: #d6d6e7 0 0.1875rem 0.4375rem inset;
-    transform: translateY(0.125rem); }
-
-.cardJeans .button-name {
-  display: flex;
-  align-items: center;
-  appearance: none;
-  background-color: #000000;
-  border-radius: 5.625rem;
-  border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.2) 0 0.125rem 0.25rem, rgba(45, 35, 66, 0.15) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset;
-  box-sizing: border-box;
-  color: #ffffff;
-  opacity: 0.7;
-  cursor: pointer;
-  font-family: "JetBrains Mono", monospace;
-  height: 2.5rem;
-  width: 8.125rem;
-  justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  margin-top: 50%;
-  margin-left: 20%;
-  position: absolute;
-  text-align: left;
-  text-decoration: none;
-  transition: box-shadow 0.15s, transform 0.15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow, transform;
-  font-size: 1.125rem; }
-  .cardJeans .button-name:focus {
-    box-shadow: #d6d6e7 0 0 0 0.0938rem inset, rgba(45, 35, 66, 0.4) 0 0.125rem 0.25rem, rgba(45, 35, 66, 0.3) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset; }
-  .cardJeans .button-name:hover {
-    box-shadow: rgba(45, 35, 66, 0.3) 0 0.25rem 0.5rem, rgba(45, 35, 66, 0.2) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset;
-    transform: translateY(-0.125rem); }
-  .cardJeans .button-name:active {
-    box-shadow: #d6d6e7 0 0.1875rem 0.4375rem inset;
-    transform: translateY(0.125rem); }
-
-/**CARDS MAIN TIENDA**/
-/**VARIABLES**/
-main {
-  background-color: #fcfcfc; }
-  main .productos {
-    display: flex;
-    gap: 1.6rem;
-    padding: 2rem;
-    justify-content: space-evenly; }
-    main .productos .fotosProductos {
-      width: 100%;
-      box-shadow: 0.1875rem 0.1875rem 0.625rem gray; }
-    main .productos p {
-      font-weight: 25rem;
-      font-size: 1.25rem;
-      line-height: 1.5rem;
-      margin-top: 1rem;
-      width: fit-content; }
-    main .productos .colores {
-      height: 1.3125rem; }
 
 /**Todo lo que este en layout**/
 .header-iconos {
@@ -145,7 +39,7 @@ main {
     .header-iconos .logoType a {
       font-family: "Inter", sans-serif;
       text-decoration: none;
-      color: black;
+      color: #000000;
       font-size: 3.125rem;
       text-shadow: 0.375rem 0.3125rem 0.25rem rgba(0, 0, 0, 0.25); }
   .header-iconos .cartLogin {
@@ -168,13 +62,12 @@ main {
   padding: 0.5rem; }
   .navBar li a {
     text-decoration: none;
-    color: black;
+    color: #000000;
     margin-right: 5rem;
     font-size: 1.25rem;
     letter-spacing: 0.2em;
     font-family: "Inter", sans-serif; }
 
-/**VARIABLES**/
 main {
   background-color: #fcfcfc; }
   main section .carruselInicio {
@@ -321,7 +214,7 @@ footer .final {
     padding-top: 1.5625rem; }
     footer .final .linksVarios1 li a {
       text-decoration: none;
-      color: black;
+      color: #000000;
       font-size: 0.875rem;
       line-height: 2.3125rem;
       letter-spacing: 0.1em; }
@@ -332,7 +225,7 @@ footer .linksVarios2 ul {
     padding-top: 1.5625rem; }
     footer .linksVarios2 ul li a {
       text-decoration: none;
-      color: black;
+      color: #000000;
       font-size: 0.875rem;
       line-height: 0.9375rem;
       letter-spacing: 0.1em; }
@@ -1095,3 +988,109 @@ main {
         height: 20rem; }
       .accesosMundoLmy div .sustent {
         width: 22rem; } }
+
+/**BOTONES INDEX**/
+/**boton ver mas inv/jeans main**/
+.cardInv .button-name {
+  display: flex;
+  align-items: center;
+  appearance: none;
+  background-color: #000000;
+  border-radius: 5.625rem;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.2) 0 0.125rem 0.25rem, rgba(45, 35, 66, 0.15) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  opacity: 0.7;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  height: 2.5rem;
+  width: 8.125rem;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-top: 50%;
+  margin-left: 20%;
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 1.125rem; }
+  .cardInv .button-name:focus {
+    box-shadow: #d6d6e7 0 0 0 0.0938rem inset, rgba(45, 35, 66, 0.4) 0 0.125rem 0.25rem, rgba(45, 35, 66, 0.3) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset; }
+  .cardInv .button-name:hover {
+    box-shadow: rgba(45, 35, 66, 0.3) 0 0.25rem 0.5rem, rgba(45, 35, 66, 0.2) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset;
+    transform: translateY(-0.125rem); }
+  .cardInv .button-name:active {
+    box-shadow: #d6d6e7 0 0.1875rem 0.4375rem inset;
+    transform: translateY(0.125rem); }
+
+.cardJeans .button-name {
+  display: flex;
+  align-items: center;
+  appearance: none;
+  background-color: #000000;
+  border-radius: 5.625rem;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.2) 0 0.125rem 0.25rem, rgba(45, 35, 66, 0.15) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  opacity: 0.7;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  height: 2.5rem;
+  width: 8.125rem;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-top: 50%;
+  margin-left: 20%;
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 1.125rem; }
+  .cardJeans .button-name:focus {
+    box-shadow: #d6d6e7 0 0 0 0.0938rem inset, rgba(45, 35, 66, 0.4) 0 0.125rem 0.25rem, rgba(45, 35, 66, 0.3) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset; }
+  .cardJeans .button-name:hover {
+    box-shadow: rgba(45, 35, 66, 0.3) 0 0.25rem 0.5rem, rgba(45, 35, 66, 0.2) 0 0.4375rem 0.8125rem -0.1875rem, #d6d6e7 0 -0.1875rem 0 inset;
+    transform: translateY(-0.125rem); }
+  .cardJeans .button-name:active {
+    box-shadow: #d6d6e7 0 0.1875rem 0.4375rem inset;
+    transform: translateY(0.125rem); }
+
+/**CARDS MAIN TIENDA**/
+main {
+  background-color: #fcfcfc; }
+  main .productos {
+    display: flex;
+    gap: 1.6rem;
+    padding: 2rem;
+    justify-content: space-evenly; }
+    main .productos .fotosProductos {
+      width: 100%;
+      box-shadow: 0.1875rem 0.1875rem 0.625rem gray; }
+    main .productos p {
+      font-weight: 25rem;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      margin-top: 1rem;
+      width: fit-content; }
+    main .productos .colores {
+      height: 1.3125rem; }
