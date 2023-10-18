@@ -142,7 +142,7 @@
     .header-iconos .logoType a {
       font-family: "Inter", sans-serif;
       text-decoration: none;
-      color: black;
+      color: #000000;
       font-size: 3.125rem;
       text-shadow: 0.375rem 0.3125rem 0.25rem rgba(0, 0, 0, 0.25); }
   .header-iconos .cartLogin {
@@ -165,7 +165,7 @@
   padding: 0.5rem; }
   .navBar li a {
     text-decoration: none;
-    color: black;
+    color: #000000;
     margin-right: 5rem;
     font-size: 1.25rem;
     letter-spacing: 0.2em;
@@ -318,26 +318,22 @@ footer .final {
   grid-template-columns: 0.5fr 0.5fr 1fr;
   grid-template-rows: 1fr;
   padding-left: 1.25rem; }
-  footer .final .linksVarios1 {
+  footer .final .linksVarios1, footer .final .linksVarios2 ul, footer .linksVarios2 .final ul {
     list-style: none;
     padding-top: 1.5625rem; }
-    footer .final .linksVarios1 li a {
+    footer .final .linksVarios1 li a, footer .final .linksVarios2 ul li a, footer .linksVarios2 .final ul li a {
       text-decoration: none;
-      color: black;
+      color: #000000;
       font-size: 0.875rem;
       line-height: 2.3125rem;
       letter-spacing: 0.1em; }
 
-footer .linksVarios2 ul {
-  list-style: none; }
-  footer .linksVarios2 ul li {
-    padding-top: 1.5625rem; }
-    footer .linksVarios2 ul li a {
-      text-decoration: none;
-      color: black;
-      font-size: 0.875rem;
-      line-height: 0.9375rem;
-      letter-spacing: 0.1em; }
+footer .linksVarios2 ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 0.875rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.1em; }
 
 footer .redes {
   padding-top: 1.5625rem; }
@@ -452,8 +448,9 @@ footer .descuentoBar {
     justify-content: space-evenly;
     margin-top: 2.5rem;
     gap: 2rem; }
-    .accesosMundoLmy div .botones {
-      width: 30rem; }
+    .accesosMundoLmy div .botones, .accesosMundoLmy div .sustent {
+      width: 30rem;
+      box-shadow: 0.1875rem 0.1875rem 0.6rem #888888; }
     .accesosMundoLmy div .sustent {
       width: 48rem; }
 
@@ -478,12 +475,15 @@ footer .descuentoBar {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     justify-self: center;
-    margin-bottom: 6rem; }
+    margin-bottom: 6rem;
+    align-self: center; }
   .newsletter form {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     justify-self: center;
-    margin-top: 4rem; }
+    margin-top: 4rem;
+    height: fit-content;
+    align-self: center; }
     .newsletter form .mailInput {
       background-color: #212121;
       width: 31.25rem;
@@ -573,78 +573,78 @@ footer .descuentoBar {
   .textoDudas img {
     width: 28.9375rem; }
 
-main section {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  main section form {
+.contactoMain {
+  background-color: #d6d6d6; }
+  .contactoMain section {
     display: flex;
-    justify-content: center;
     align-items: center;
-    transform-style: preserve-3d;
-    transition: all 1s ease;
-    background-color: #363636; }
-    main section form .form_front {
+    justify-content: center; }
+    .contactoMain section form {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 30px;
-      backface-visibility: hidden;
-      padding: 65px 45px;
-      border-radius: 15px;
-      box-shadow: inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
-      main section form .form_front .form_details {
-        font-size: 25px;
-        font-weight: 600;
-        padding-bottom: 10px;
-        color: white; }
-      main section form .form_front .input {
-        width: 420px;
-        min-height: 45px;
-        color: #fff;
-        outline: none;
-        transition: 0.35s;
-        padding: 0px 7px;
-        background-color: #000000;
-        border-radius: 6px;
-        border: 2px solid #212121;
-        box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6); }
-        main section form .form_front .input .placeholder {
-          color: #999; }
-        main section form .form_front .input:focus {
-          transition: 0.3s;
-          opacity: 0;
-          transform: scale(1.05);
-          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
-      main section form .form_front .btn {
-        padding: 10px 35px;
-        cursor: pointer;
-        background-color: #212121;
-        border-radius: 6px;
-        border: 2px solid #212121;
-        box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6);
-        color: #fff;
-        font-size: 15px;
-        font-weight: bold;
-        transition: 0.35s; }
-        main section form .form_front .btn:hover {
-          transform: scale(1.05);
-          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
-        main section form .form_front .btn:focus {
-          transform: scale(1.05);
-          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
-
-main .infoContacto h2 {
-  font-weight: 25rem;
-  font-size: 1rem;
-  line-height: 2.5rem;
-  text-align: right;
-  letter-spacing: 0.14em;
-  padding-right: 1.25rem; }
-
-main div iframe {
-  width: 100%; }
+      transform-style: preserve-3d;
+      transition: all 1s ease;
+      background-color: #363636; }
+      .contactoMain section form .form_front {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        backface-visibility: hidden;
+        padding: 65px 45px;
+        border-radius: 15px;
+        box-shadow: inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+        .contactoMain section form .form_front .form_details {
+          font-size: 25px;
+          font-weight: 600;
+          padding-bottom: 10px;
+          color: white; }
+        .contactoMain section form .form_front .input {
+          width: 420px;
+          min-height: 45px;
+          color: #fff;
+          outline: none;
+          transition: 0.35s;
+          padding: 0px 7px;
+          background-color: #000000;
+          border-radius: 6px;
+          border: 2px solid #212121;
+          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6); }
+          .contactoMain section form .form_front .input .placeholder {
+            color: #999; }
+          .contactoMain section form .form_front .input:focus {
+            transition: 0.3s;
+            opacity: 0;
+            transform: scale(1.05);
+            box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+        .contactoMain section form .form_front .btn {
+          padding: 10px 35px;
+          cursor: pointer;
+          background-color: #212121;
+          border-radius: 6px;
+          border: 2px solid #212121;
+          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6);
+          color: #fff;
+          font-size: 15px;
+          font-weight: bold;
+          transition: 0.35s; }
+          .contactoMain section form .form_front .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+          .contactoMain section form .form_front .btn:focus {
+            transform: scale(1.05);
+            box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+  .contactoMain .infoContacto h2 {
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    text-align: right;
+    letter-spacing: 0.14em;
+    padding-right: 1.25rem; }
+  .contactoMain div iframe {
+    width: 100%; }
 
 @media (max-width: 1024px) {
   /**HEADER**/
@@ -716,7 +716,7 @@ main div iframe {
       line-height: 2.5rem; }
   .accesosMundoLmy h2 {
     font-size: 1.5rem; }
-  .accesosMundoLmy div .botones {
+  .accesosMundoLmy div .botones, .accesosMundoLmy div .sustent {
     width: 20rem;
     height: 20rem; }
   .accesosMundoLmy div .sustent {
@@ -800,9 +800,9 @@ main div iframe {
   /**FOOTER**/
   .final {
     grid-template-columns: 1fr 1fr 1fr; }
-    .final .linksVarios1 {
+    .final .linksVarios1, .final footer .linksVarios2 ul, footer .linksVarios2 .final ul {
       padding: 0rem; }
-      .final .linksVarios1 li a {
+      .final .linksVarios1 li a, .final footer .linksVarios2 ul li a, footer .linksVarios2 .final ul li a {
         font-size: 0.7rem; }
     .final .linksVarios2 {
       justify-self: flex-end; }
@@ -842,7 +842,7 @@ main div iframe {
       font-size: 1.2rem; }
     .accesosMundoLmy div {
       gap: 0.8rem; }
-      .accesosMundoLmy div .botones {
+      .accesosMundoLmy div .botones, .accesosMundoLmy div .sustent {
         width: 15rem;
         height: 16rem; }
       .accesosMundoLmy div .sustent {
@@ -928,7 +928,7 @@ main div iframe {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    footer .final .linksVarios1 {
+    footer .final .linksVarios1, footer .final .linksVarios2 ul, footer .linksVarios2 .final ul {
       display: none; }
   footer .linksVarios2 {
     display: none; }
@@ -1022,7 +1022,7 @@ main div iframe {
       flex-direction: column;
       margin-top: 0rem;
       align-items: center; }
-      .accesosMundoLmy div .botones {
+      .accesosMundoLmy div .botones, .accesosMundoLmy div .sustent {
         width: 22rem;
         height: 20rem; }
       .accesosMundoLmy div .sustent {

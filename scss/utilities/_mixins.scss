@@ -9,3 +9,13 @@
     justify-self: center;
     align-self: center;
 }
+
+@mixin flexNav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    background-color: #eeeeee;
+    padding: 0.5rem;
+}

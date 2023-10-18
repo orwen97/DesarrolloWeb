@@ -1,5 +1,4 @@
 /**MAIN MUNDO LMY PAGE**/
-
 .imagenInicio{
     img{
         width: 100%;
@@ -88,8 +87,10 @@
         gap: 2rem;
         .botones{
             width: 30rem;
+            box-shadow:  0.1875rem 0.1875rem 0.6rem rgb(136, 136, 136);
         }
         .sustent{
+            @extend .botones;
             width: 48rem;
         }
     }
