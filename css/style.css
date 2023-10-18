@@ -760,7 +760,8 @@ footer .descuentoBar {
     margin-top: 1rem;
     height: 26rem; }
     main .fotoSlide h2 {
-      font-size: 1rem; }
+      font-size: 1rem;
+      align-self: center; }
     main .fotoSlide img {
       margin-top: 0.3rem; }
   main .accesoDos {
