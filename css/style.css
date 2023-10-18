@@ -188,13 +188,7 @@ main {
     padding-bottom: 6rem;
     padding-top: 8rem;
     box-shadow: 0.5rem 0.9rem 0.7rem rgba(0, 0, 0, 0.25); }
-    main .iconosMain .reciclaje img {
-      width: 100%;
-      margin-top: 0.5rem; }
-    main .iconosMain .envios img {
-      width: 100%;
-      margin-top: 0.5rem; }
-    main .iconosMain .pagos img {
+    main .iconosMain .reciclaje img, main .iconosMain .envios img img, main .iconosMain .pagos img img {
       width: 100%;
       margin-top: 0.5rem; }
   main .cardsMobile {
@@ -485,18 +479,18 @@ main {
     margin-top: 1rem; }
     main .faqInicio img {
       width: 100%; }
-  main .primerConsejo {
+  main .primerConsejo, main .textoDudas {
     display: flex;
     padding-top: 7rem;
     align-items: center;
     justify-content: space-evenly; }
-    main .primerConsejo p {
+    main .primerConsejo p, main .textoDudas p {
       width: 48rem;
       font-size: 1.5rem;
       line-height: 3.125rem;
       letter-spacing: 0.2em;
       margin-bottom: 3rem; }
-    main .primerConsejo img {
+    main .primerConsejo img, main .textoDudas img {
       width: 23.75rem; }
   main .tablaTalles {
     display: grid;
@@ -519,21 +513,16 @@ main {
       grid-column: 2 / 3;
       align-self: center;
       justify-self: center; }
-  main .textoDudas {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 6rem; }
-    main .textoDudas p {
-      font-size: 1.5rem;
-      line-height: 3.2rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      width: 55%; }
-    main .textoDudas img {
-      width: 28.9375rem; }
+  main .textoDudas p {
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    width: 55%; }
+  main .textoDudas img {
+    width: 28.9375rem; }
 
 /**MAIN CONTACTOS**/
-/**VARIABLES**/
 .contactosMain {
   background-color: #d6d6d6; }
   .contactosMain section {
