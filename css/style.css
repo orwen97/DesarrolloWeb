@@ -199,7 +199,7 @@ section .carruselMobile {
   column-gap: 9.375rem;
   justify-content: center;
   margin-top: 3rem; }
-  .fotoSlide h2 {
+  .fotoSlide h1 {
     font-style: normal;
     font-weight: 600;
     font-size: 1.9rem;
@@ -436,7 +436,7 @@ footer .descuentoBar {
 .accesosMundoLmy {
   margin-top: 3rem;
   display: grid; }
-  .accesosMundoLmy h2 {
+  .accesosMundoLmy h1 {
     font-weight: 31.25rem;
     font-size: 2.5rem;
     line-height: 3.75rem;
@@ -528,6 +528,10 @@ footer .descuentoBar {
   display: flex;
   padding-top: 7rem;
   align-items: center; }
+  .primerConsejo h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.5rem; }
   .primerConsejo p {
     font-size: 1.5rem;
     line-height: 3.125rem;
@@ -571,6 +575,10 @@ footer .descuentoBar {
 
 .contactoMain {
   background-color: #d6d6d6; }
+  .contactoMain h1 {
+    padding: 3rem;
+    text-align: center;
+    font-size: 2.4rem; }
   .contactoMain section {
     display: flex;
     align-items: center;
@@ -638,7 +646,7 @@ footer .descuentoBar {
     line-height: 2.5rem;
     text-align: right;
     letter-spacing: 0.14em;
-    padding-right: 1.25rem; }
+    padding: 3rem; }
   .contactoMain div iframe {
     width: 100%; }
 
