@@ -169,6 +169,7 @@
         display: flex;
         flex-direction: column;
         gap: 0rem;
+        align-items: center;
         div{
             display: contents;
             .fotosProductos{
@@ -202,6 +203,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 0.8rem;
+        align-items: center;
         .maquinaMobile{
             display: contents;
             width: 100%;
@@ -221,6 +223,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 1rem;
+        align-items: center;
         .imgLimay2{
             width: 100%;
         }
@@ -256,10 +259,11 @@
             align-items: center;
             .botones{
                 width: 22rem;
-                height: 20rem;
+                height: 22rem;
             }
             .sustent{
                 width: 22rem;
+                height: 15rem;
             }
         }
     }
