@@ -311,5 +311,44 @@
     }
 
 
+    /**CONTACTO**/
+
+    .contactoMain{
+        background-image: url("https://i.ibb.co/xLB2P0y/Group-11-1.png");
+        width: 100%;
+        section{
+            form{
+                .form_front{
+                    padding: 0;
+                    .form_details{
+                        display: none;
+                    }
+                    .input{
+                        width: 13rem;
+                        min-height: 2rem;
+                    }
+                }
+            }
+        }
+        .infoContacto{
+            padding: 0;
+            margin-top: 5rem;
+            h2{
+                font-size: 0.8rem;
+                line-height: 1rem;
+                text-align: center;
+            }
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            iframe{
+                width: 17rem;
+                height: 12rem;
+            }
+        }
+    }
+
+
 
 }

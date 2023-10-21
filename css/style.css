@@ -587,24 +587,31 @@ footer .descuentoBar {
     padding-right: 3rem; }
 
 .contactoMain {
-  background-color: #d6d6d6; }
+  background-image: url("https://i.ibb.co/7Gf5c3m/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #e9e9e9; }
   .contactoMain h1 {
-    padding: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 15%;
     text-align: center;
-    font-size: 2.4rem; }
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: end; }
   .contactoMain section {
     display: flex;
-    align-items: center;
-    justify-content: center; }
+    justify-content: flex-end;
+    padding-right: 10%; }
     .contactoMain section form {
       display: flex;
       justify-content: center;
       align-items: center;
       transform-style: preserve-3d;
-      transition: all 1s ease;
-      background-color: #363636; }
+      transition: all 1s ease; }
       .contactoMain section form .form_front {
         display: flex;
+        background-color: #d1d1d1;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -612,12 +619,11 @@ footer .descuentoBar {
         backface-visibility: hidden;
         padding: 65px 45px;
         border-radius: 15px;
-        box-shadow: inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
+        box-shadow: -7px 7px 20px #e6e6e6; }
         .contactoMain section form .form_front .form_details {
           font-size: 25px;
           font-weight: 600;
-          padding-bottom: 10px;
-          color: white; }
+          color: black; }
         .contactoMain section form .form_front .input {
           width: 420px;
           min-height: 45px;
@@ -625,10 +631,10 @@ footer .descuentoBar {
           outline: none;
           transition: 0.35s;
           padding: 0px 7px;
-          background-color: #000000;
+          background-color: #ffffff;
           border-radius: 6px;
-          border: 2px solid #212121;
-          box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6); }
+          border: 2px solid #dadada;
+          box-shadow: 6px 6px 10px #505050, 1px 1px 10px rgba(255, 255, 255, 0.6); }
           .contactoMain section form .form_front .input .placeholder {
             color: #999; }
           .contactoMain section form .form_front .input:focus {
@@ -653,13 +659,18 @@ footer .descuentoBar {
           .contactoMain section form .form_front .btn:focus {
             transform: scale(1.05);
             box-shadow: 6px 6px 10px black, 1px 1px 10px rgba(255, 255, 255, 0.6), inset 2px 2px 10px black, inset -1px -1px 5px rgba(255, 255, 255, 0.6); }
-  .contactoMain .infoContacto h2 {
-    font-weight: 25rem;
-    font-size: 1rem;
-    line-height: 2.5rem;
-    text-align: right;
-    letter-spacing: 0.14em;
-    padding: 3rem; }
+  .contactoMain .infoContacto {
+    background-color: #e9e9e9;
+    display: flex;
+    opacity: 0.5;
+    margin-top: 7rem; }
+    .contactoMain .infoContacto h2 {
+      font-weight: 25rem;
+      font-size: 1rem;
+      line-height: 2.5rem;
+      text-align: right;
+      letter-spacing: 0.14em;
+      padding: 3rem; }
   .contactoMain div iframe {
     width: 100%; }
 
@@ -778,7 +789,8 @@ footer .descuentoBar {
     .textoDudas img {
       width: 20rem;
       height: 14rem;
-      padding-right: 0; } }
+      padding-right: 0; }
+  /**CONTACTOS**/ }
 
 @media (max-width: 768px) {
   /**HEADER**/
@@ -943,7 +955,16 @@ footer .descuentoBar {
     width: 90%; }
   .textoDudas img {
     width: 30%;
-    height: 30%; } }
+    height: 30%; }
+  /**CONTACTOS**/
+  .contactoMain h1 {
+    display: none; }
+  .contactoMain section {
+    justify-content: center;
+    padding-right: 0;
+    padding-top: 6rem; }
+    .contactoMain section form .form_front {
+      background-color: transparent; } }
 
 @media (max-width: 425px) {
   /**HEADER**/
@@ -1154,4 +1175,28 @@ footer .descuentoBar {
     gap: 0; }
     .textoDudas p {
       font-size: 0.8rem;
-      line-height: 1.8rem; } }
+      line-height: 1.8rem; }
+  /**CONTACTO**/
+  .contactoMain {
+    background-image: url("https://i.ibb.co/xLB2P0y/Group-11-1.png");
+    width: 100%; }
+    .contactoMain section form .form_front {
+      padding: 0; }
+      .contactoMain section form .form_front .form_details {
+        display: none; }
+      .contactoMain section form .form_front .input {
+        width: 13rem;
+        min-height: 2rem; }
+    .contactoMain .infoContacto {
+      padding: 0;
+      margin-top: 5rem; }
+      .contactoMain .infoContacto h2 {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        text-align: center; }
+    .contactoMain div {
+      display: flex;
+      justify-content: center; }
+      .contactoMain div iframe {
+        width: 17rem;
+        height: 12rem; } }

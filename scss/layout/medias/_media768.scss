@@ -278,5 +278,23 @@
         }
     }
 
+    /**CONTACTOS**/
+    .contactoMain{
+        h1{
+            display: none;
+        }
+        section{
+            justify-content: center;
+            padding-right: 0;
+            padding-top: 6rem;
+            form{
+                .form_front{
+                    background-color: transparent;
+                }
+            }
+        }
+
+    }
+
 
 }
