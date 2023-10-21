@@ -155,21 +155,29 @@
     .header-iconos .cartLogin a .login {
       margin-right: 1.875rem; }
 
-.navBar {
+/**NAV BAR**/
+.nav-wraper {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: center;
-  background-color: #eeeeee;
-  padding: 0.5rem; }
-  .navBar li a {
-    text-decoration: none;
-    color: #000000;
-    margin-right: 5rem;
-    font-size: 1.25rem;
-    letter-spacing: 0.2em;
-    font-family: "Inter", sans-serif; }
+  margin: 0 auto;
+  padding-bottom: 0.3rem; }
+  .nav-wraper nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d1d1d1;
+    padding: 0.1rem;
+    box-shadow: 1px 1px grey; }
+    .nav-wraper nav #toggle {
+      display: none; }
+    .nav-wraper nav label {
+      display: none; }
+    .nav-wraper nav .menu ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem; }
+      .nav-wraper nav .menu ul li a {
+        text-decoration: none;
+        color: black; }
 
 section .carruselInicio {
   display: flex;
@@ -732,9 +740,6 @@ footer .descuentoBar {
     width: 8rem; }
   header .header-iconos .searchIcon {
     display: none; }
-  header .header-iconos .menuIcon {
-    display: grid;
-    grid-column: 1 / 2; }
   header .header-iconos .logotype {
     margin-left: 2.7rem; }
     header .header-iconos .logotype a {
@@ -744,8 +749,23 @@ footer .descuentoBar {
     grid-column: 3 / 4; }
     header .header-iconos .cartLogin .login {
       display: none; }
-  nav {
-    display: none; }
+  /**NAV BAR**/
+  .nav-wraper nav {
+    justify-content: flex-start;
+    width: 100%;
+    position: absolute; }
+    .nav-wraper nav #toggle:checked ~ .menu {
+      height: 100%; }
+    .nav-wraper nav label {
+      display: block; }
+    .nav-wraper nav .menu {
+      width: 100%;
+      height: 0rem;
+      overflow: hidden; }
+      .nav-wraper nav .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5rem; }
   /**INDEX**/
   main section .carruselInicio {
     display: none; }

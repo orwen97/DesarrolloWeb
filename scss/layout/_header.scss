@@ -59,17 +59,50 @@
     }
 
 }
-
-.navBar{
-    @include flexNav;
-        li{
-            a{
-                text-decoration: none;
-                color: $color-font;
-                margin-right: 5rem;
-                font-size: 1.25rem;
-                letter-spacing: 0.2em;
-                font-family: "Inter", sans-serif;
+    /**NAV BAR**/
+    .nav-wraper{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 0.3rem;
+        nav{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            background-color: rgb(209, 209, 209);
+            padding: 0.1rem;
+            box-shadow: 1px 1px grey;
+            #toggle{
+                display: none;
+            }
+            label{
+                display: none;
+            }
+            .menu{
+                ul{
+                    list-style: none;
+                    display: flex;
+                    gap: 2rem;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
             }
         }
-}
+    }
+
+// .navBar{
+//     @include flexNav;
+//         li{
+//             a{
+//                 text-decoration: none;
+//                 color: $color-font;
+//                 margin-right: 5rem;
+//                 font-size: 1.25rem;
+//                 letter-spacing: 0.2em;
+//                 font-family: "Inter", sans-serif;
+//             }
+//         }
+// 
