@@ -139,4 +139,64 @@
         }
     }
 
+
+    /**FAQ**/
+    .primerConsejo{
+        padding: 3rem;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+            div{
+                h1{
+                    font-size: 1.4rem;
+                }
+                p{
+                    font-size: 1.4rem;
+                    line-height: 3.2rem;
+                }
+            }
+            div{
+                img{
+                    width: 20rem;
+                }
+                .medidas1024{
+                    width: 20rem;
+                }
+            }
+    }
+    .tablaTalles{
+        grid-template-columns: 60% 40%;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        gap: 0;
+        img{
+            width: 32rem;
+        }
+        div{
+            width: 15rem;
+            justify-self: center;
+        }
+    }
+    .textoDudas{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0rem;
+        gap: 2rem;
+        p{
+            font-size: 1.2rem;
+            width: 80%;
+            text-align: center;
+            line-height: 3.5rem;
+            padding-left: 0;
+        }
+        img{
+            width: 20rem;
+            height: 14rem;
+            padding-right: 0;
+
+        }
+    }
+
+
 }

@@ -1,32 +1,44 @@
 /**MAIN FAQ PAGES**/
 .faqInicio{
-    margin-top: 1rem;
     img{
         width: 100%;
     }
 }
+.faqInicioMobile{
+    display: none;
+}
 .primerConsejo{
-    h1{
-        text-align: center;
-        padding-bottom: 2rem;
-        font-size: 1.5rem;
-    }
     display: flex;
-    padding-top: 7rem;
+    flex-direction: column;
+    margin-top: 2rem;
     align-items: center;
-    p{
-        font-size: 1.5rem;
-        line-height: 3.125rem;
-        letter-spacing: 0.2em;
-        margin-bottom: 3rem;
-        text-align: center;
-        padding-left: 3rem;
-        padding-right: 5rem;
+    div{
+        
+        h1{
+            text-align: center;
+            padding-bottom: 2rem;
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1.5rem;
+            line-height: 3.125rem;
+            letter-spacing: 0.2em;
+            margin-bottom: 3rem;
+            text-align: center;
+            padding-left: 3rem;
+            padding-right: 5rem;
+        }
     }
-    img{
-        width: 30%;
-        padding-right: 3rem;
+    div{
+        flex-direction: row;
+        img{
+            margin-right: 2rem;
+        }
+        .medidas1024{
+            transform: scaleX(-1);
+        }
     }
+    
 }
 .tablaTalles{
     display: grid;

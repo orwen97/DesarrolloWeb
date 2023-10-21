@@ -527,20 +527,22 @@ footer .descuentoBar {
         transition-property: box-shadow; }
 
 /**MAIN FAQ PAGES**/
-.faqInicio {
-  margin-top: 1rem; }
-  .faqInicio img {
-    width: 100%; }
+.faqInicio img {
+  width: 100%; }
+
+.faqInicioMobile {
+  display: none; }
 
 .primerConsejo {
   display: flex;
-  padding-top: 7rem;
+  flex-direction: column;
+  margin-top: 2rem;
   align-items: center; }
-  .primerConsejo h1 {
+  .primerConsejo div h1 {
     text-align: center;
     padding-bottom: 2rem;
     font-size: 1.5rem; }
-  .primerConsejo p {
+  .primerConsejo div p {
     font-size: 1.5rem;
     line-height: 3.125rem;
     letter-spacing: 0.2em;
@@ -548,9 +550,12 @@ footer .descuentoBar {
     text-align: center;
     padding-left: 3rem;
     padding-right: 5rem; }
-  .primerConsejo img {
-    width: 30%;
-    padding-right: 3rem; }
+  .primerConsejo div {
+    flex-direction: row; }
+    .primerConsejo div img {
+      margin-right: 2rem; }
+    .primerConsejo div .medidas1024 {
+      transform: scaleX(-1); }
 
 .tablaTalles {
   display: grid;
@@ -732,7 +737,48 @@ footer .descuentoBar {
     width: 20rem;
     height: 20rem; }
   .accesosMundoLmy div .sustent {
-    width: 30rem; } }
+    width: 30rem; }
+  /**FAQ**/
+  .primerConsejo {
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+    .primerConsejo div h1 {
+      font-size: 1.4rem; }
+    .primerConsejo div p {
+      font-size: 1.4rem;
+      line-height: 3.2rem; }
+    .primerConsejo div img {
+      width: 20rem; }
+    .primerConsejo div .medidas1024 {
+      width: 20rem; }
+  .tablaTalles {
+    grid-template-columns: 60% 40%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    gap: 0; }
+    .tablaTalles img {
+      width: 32rem; }
+    .tablaTalles div {
+      width: 15rem;
+      justify-self: center; }
+  .textoDudas {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 0rem;
+    gap: 2rem; }
+    .textoDudas p {
+      font-size: 1.2rem;
+      width: 80%;
+      text-align: center;
+      line-height: 3.5rem;
+      padding-left: 0; }
+    .textoDudas img {
+      width: 20rem;
+      height: 14rem;
+      padding-right: 0; } }
 
 @media (max-width: 768px) {
   /**HEADER**/
@@ -874,7 +920,30 @@ footer .descuentoBar {
         height: 16rem; }
       .accesosMundoLmy div .sustent {
         width: 24rem;
-        height: 16rem; } }
+        height: 16rem; }
+  /**FAQ**/
+  .primerConsejo {
+    padding: 0; }
+    .primerConsejo div h1 {
+      font-size: 1.2rem; }
+    .primerConsejo div p {
+      font-size: 1.1rem;
+      padding: 0; }
+    .primerConsejo div img {
+      width: 15rem; }
+    .primerConsejo div .medidas1024 {
+      width: 15rem; }
+  .tablaTalles img {
+    width: 26rem; }
+  .tablaTalles div {
+    width: 10rem; }
+  .textoDudas p {
+    font-size: 1rem;
+    line-height: 2.5rem;
+    width: 90%; }
+  .textoDudas img {
+    width: 30%;
+    height: 30%; } }
 
 @media (max-width: 425px) {
   /**HEADER**/
@@ -1057,4 +1126,36 @@ footer .descuentoBar {
         height: 22rem; }
       .accesosMundoLmy div .sustent {
         width: 22rem;
-        height: 15rem; } }
+        height: 15rem; }
+  /**FAQ**/
+  .faqInicio {
+    display: none; }
+  .faqInicioMobile {
+    display: flex; }
+    .faqInicioMobile img {
+      display: flex;
+      width: 100%; }
+  .primerConsejo div h1 {
+    font-size: 1.1rem;
+    padding: 0; }
+  .primerConsejo div p {
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 0.8rem; }
+  div img {
+    display: none; }
+  .tablaTalles {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .tablaTalles img {
+      padding: 0;
+      width: 19rem; }
+    .tablaTalles div {
+      padding: 0;
+      width: 17rem; }
+  .textoDudas {
+    gap: 0; }
+    .textoDudas p {
+      font-size: 0.8rem;
+      line-height: 1.8rem; } }

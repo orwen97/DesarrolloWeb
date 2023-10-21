@@ -236,4 +236,47 @@
             }
         }
     }
+
+    /**FAQ**/
+    .primerConsejo{
+        padding: 0;
+        div{
+            h1{
+                font-size: 1.2rem;
+            }
+            p{
+                font-size: 1.1rem;
+                padding: 0;
+            }
+        }
+        div{
+            img{
+                width: 15rem;
+            }
+            .medidas1024{
+                width: 15rem;
+            }
+        }
+    }
+    .tablaTalles{
+        img{
+            width: 26rem;
+        }
+        div{
+            width: 10rem;
+        }
+    }
+    .textoDudas{
+        p{
+            font-size: 1rem;
+            line-height: 2.5rem;
+            width: 90%;
+        }
+        img{
+            width: 30%;
+            height: 30%;
+        }
+    }
+
+
 }
