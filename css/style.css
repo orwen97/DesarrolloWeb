@@ -433,12 +433,12 @@ footer .descuentoBar {
     letter-spacing: 0.12em;
     text-transform: uppercase;
     text-align: center; }
-  .textoMedio div {
+  .textoMedio .txtMedio {
     display: flex;
     justify-content: center;
     gap: 8rem;
     margin: 5rem; }
-    .textoMedio div img {
+    .textoMedio .txtMedio img {
       width: 16rem; }
 
 .accesosMundoLmy {
@@ -907,7 +907,7 @@ footer .descuentoBar {
     padding: 1.3rem; }
     .textoMedio p {
       font-size: 0.8rem; }
-    .textoMedio div img {
+    .textoMedio .txtMedio img {
       width: 10rem; }
   .accesosMundoLmy {
     margin-top: 2rem; }
@@ -947,25 +947,21 @@ footer .descuentoBar {
 
 @media (max-width: 425px) {
   /**HEADER**/
-  .header-iconos {
+  header .header-iconos {
     height: 8rem;
     box-shadow: 0rem 0.3125rem 0.1875rem rgba(0, 0, 0, 0.2);
     margin-left: 0rem;
     margin-right: 0rem;
     margin-bottom: 0.4rem; }
-    .header-iconos .logoImg a .logoLmy {
+    header .header-iconos .logoImg a .logoLmy {
       width: 5rem; }
-    .header-iconos .menuIcon a .menu {
-      width: 2.5rem;
-      margin-left: 1rem; }
-    .header-iconos .logoType {
+    header .header-iconos .logoType {
       margin-top: 0.5rem;
       margin-left: 1.29rem;
       align-self: flex-start; }
-      .header-iconos .logoType a {
-        font-size: 1.2rem;
-        letter-spacing: 1.3rem; }
-    .header-iconos .cartLogin a .carrito {
+      header .header-iconos .logoType a {
+        font-size: 1.1rem; }
+    header .header-iconos .cartLogin a .carrito {
       width: 2.5rem;
       margin-right: 1.1rem; }
   /**INDEX**/
@@ -1110,7 +1106,7 @@ footer .descuentoBar {
     .textoMedio p {
       font-size: 0.6rem;
       line-height: 1.5rem; }
-    .textoMedio div img {
+    .textoMedio .txtMedio img {
       display: none; }
   .accesosMundoLmy {
     display: flex;
@@ -1142,7 +1138,7 @@ footer .descuentoBar {
     font-size: 1rem;
     line-height: 2rem;
     padding: 0.8rem; }
-  div img {
+  .imgfaq {
     display: none; }
   .tablaTalles {
     display: flex;

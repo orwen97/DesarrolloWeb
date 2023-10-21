@@ -1,44 +1,38 @@
 @media (max-width: 425px){
     /**HEADER**/
-    .header-iconos{
-        height: 8rem;
-        box-shadow: 0rem 0.3125rem 0.1875rem rgba(0, 0, 0, 0.2);
-        margin-left: 0rem;
-        margin-right: 0rem;
-        margin-bottom: 0.4rem;
-        .logoImg{
-            a{
-                .logoLmy{
-                    width: 5rem;
+    header{
+        .header-iconos{
+            height: 8rem;
+            box-shadow: 0rem 0.3125rem 0.1875rem rgba(0, 0, 0, 0.2);
+            margin-left: 0rem;
+            margin-right: 0rem;
+            margin-bottom: 0.4rem;
+            .logoImg{
+                a{
+                    .logoLmy{
+                        width: 5rem;
+                    }
                 }
             }
-        }
-        .menuIcon{
-            a{
-                .menu{
-                    width: 2.5rem;
-                    margin-left: 1rem;
+            .logoType{
+                margin-top: 0.5rem;
+                margin-left: 1.29rem;
+                align-self: flex-start;
+                a{
+                    font-size: 1.1rem;
                 }
             }
-        }
-        .logoType{
-            margin-top: 0.5rem;
-            margin-left: 1.29rem;
-            align-self: flex-start;
-            a{
-                font-size: 1.2rem;
-                letter-spacing: 1.3rem;
-            }
-        }
-        .cartLogin{
-            a{
-                .carrito{
-                    width: 2.5rem;
-                    margin-right: 1.1rem;
+            .cartLogin{
+                a{
+                    .carrito{
+                        width: 2.5rem;
+                        margin-right: 1.1rem;
+                    }
                 }
             }
         }
     }
+
 
     /**INDEX**/ 
     .cardsAccess{
@@ -241,7 +235,7 @@
             font-size: 0.6rem;
             line-height: 1.5rem;
         }
-        div{
+        .txtMedio{
             img{
                 display: none;
             }
@@ -292,10 +286,8 @@
             }
         }
     }
-    div{
-        img{
-            display: none;
-        }
+    .imgfaq{
+        display: none;
     }
     .tablaTalles{
         display: flex;
