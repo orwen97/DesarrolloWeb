@@ -18,4 +18,4 @@ El proyecto se encuentra desplegado y puede ser visualizado directamente desde e
 
 1. Clona el repositorio en tu máquina local:  
    ```bash
-   git clone https://orwen97.github.io/DesarrolloWeb/index.html
+   git clone https://github.com/orwen97/MAQUETACION-LIMAY
