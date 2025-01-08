@@ -12,7 +12,7 @@ Este proyecto consiste en la maquetación de un sitio web existente como prácti
 ## Visualización del Proyecto  
 
 El proyecto se encuentra desplegado y puede ser visualizado directamente desde el siguiente enlace:  
-[Ver Deployment en GitHub Pages](https://orwen97.github.io/DesarrolloWeb/)  
+[Ver Deployment en GitHub Pages](https://orwen97.github.io/MAQUETACION-LIMAY/)  
 
 ## Cómo Ejecutarlo Localmente  
 
